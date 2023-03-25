@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "robot arm";
             this.ResumeLayout(false);
 
         }
