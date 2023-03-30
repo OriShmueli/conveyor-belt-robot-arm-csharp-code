@@ -277,6 +277,9 @@
             // 
             // SensorePictureBox
             // 
+            this.SensorePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.SensorePictureBox.BackColor = System.Drawing.Color.Transparent;
             this.SensorePictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.sensore_icon;
             this.SensorePictureBox.Location = new System.Drawing.Point(130, 183);
@@ -395,6 +398,9 @@
             // 
             // OnOffPictureBox
             // 
+            this.OnOffPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.OnOffPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.turn_off_icon;
             this.OnOffPictureBox.Location = new System.Drawing.Point(2, 5);
             this.OnOffPictureBox.Name = "OnOffPictureBox";
@@ -740,6 +746,9 @@
             // 
             // StartHollowCirclePictureBox
             // 
+            this.StartHollowCirclePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.StartHollowCirclePictureBox.BackColor = System.Drawing.Color.Transparent;
             this.StartHollowCirclePictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.degrees_pattern_transparent;
             this.StartHollowCirclePictureBox.Location = new System.Drawing.Point(587, 183);
