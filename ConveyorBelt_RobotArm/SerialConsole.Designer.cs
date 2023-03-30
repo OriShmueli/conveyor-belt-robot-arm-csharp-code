@@ -47,14 +47,14 @@
             this.SerialConosleTextBox.Location = new System.Drawing.Point(3, 30);
             this.SerialConosleTextBox.Multiline = true;
             this.SerialConosleTextBox.Name = "SerialConosleTextBox";
-            this.SerialConosleTextBox.Size = new System.Drawing.Size(502, 479);
+            this.SerialConosleTextBox.Size = new System.Drawing.Size(521, 449);
             this.SerialConosleTextBox.TabIndex = 1;
             // 
             // SerialConsoleVScrollBar
             // 
-            this.SerialConsoleVScrollBar.Location = new System.Drawing.Point(508, 30);
+            this.SerialConsoleVScrollBar.Location = new System.Drawing.Point(527, 30);
             this.SerialConsoleVScrollBar.Name = "SerialConsoleVScrollBar";
-            this.SerialConsoleVScrollBar.Size = new System.Drawing.Size(21, 479);
+            this.SerialConsoleVScrollBar.Size = new System.Drawing.Size(21, 449);
             this.SerialConsoleVScrollBar.TabIndex = 2;
             // 
             // SerialConsole
@@ -65,7 +65,7 @@
             this.Controls.Add(this.SerialConosleTextBox);
             this.Controls.Add(this.SerialConsoleTitleLabel);
             this.Name = "SerialConsole";
-            this.Size = new System.Drawing.Size(548, 512);
+            this.Size = new System.Drawing.Size(548, 482);
             this.ResumeLayout(false);
             this.PerformLayout();
 

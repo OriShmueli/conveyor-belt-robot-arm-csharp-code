@@ -55,8 +55,8 @@
             this.ComputerStateWritingDataToArduinoLabel = new System.Windows.Forms.Label();
             this.ProgramStateTitlePanel = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
             this.ArduinoTitleLabel = new System.Windows.Forms.Label();
+            this.panel24 = new System.Windows.Forms.Panel();
             this.ComputerTitleLabel = new System.Windows.Forms.Label();
             this.ComputerArrowModifyingArmMovementPictureBox = new System.Windows.Forms.PictureBox();
             this.ComputerArrowWritingDataToArduinoPictureBox = new System.Windows.Forms.PictureBox();
@@ -112,7 +112,7 @@
             this.ProgramStatesTitleLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ProgramStatesTitleLabel.Location = new System.Drawing.Point(0, 0);
             this.ProgramStatesTitleLabel.Name = "ProgramStatesTitleLabel";
-            this.ProgramStatesTitleLabel.Size = new System.Drawing.Size(474, 44);
+            this.ProgramStatesTitleLabel.Size = new System.Drawing.Size(474, 24);
             this.ProgramStatesTitleLabel.TabIndex = 0;
             this.ProgramStatesTitleLabel.Text = "Program State";
             this.ProgramStatesTitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -121,7 +121,7 @@
             // 
             this.ArduinoStateOnPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ArduinoStateOnPanel.Controls.Add(this.ArduinoStateOnLabel);
-            this.ArduinoStateOnPanel.Location = new System.Drawing.Point(3, 70);
+            this.ArduinoStateOnPanel.Location = new System.Drawing.Point(3, 53);
             this.ArduinoStateOnPanel.Name = "ArduinoStateOnPanel";
             this.ArduinoStateOnPanel.Size = new System.Drawing.Size(150, 50);
             this.ArduinoStateOnPanel.TabIndex = 1;
@@ -140,7 +140,7 @@
             // 
             this.ComputerStateArmUIWorkFlowPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ComputerStateArmUIWorkFlowPanel.Controls.Add(this.ComputerStateArmUIWorkFlowLable);
-            this.ComputerStateArmUIWorkFlowPanel.Location = new System.Drawing.Point(321, 70);
+            this.ComputerStateArmUIWorkFlowPanel.Location = new System.Drawing.Point(321, 53);
             this.ComputerStateArmUIWorkFlowPanel.Name = "ComputerStateArmUIWorkFlowPanel";
             this.ComputerStateArmUIWorkFlowPanel.Size = new System.Drawing.Size(150, 50);
             this.ComputerStateArmUIWorkFlowPanel.TabIndex = 6;
@@ -159,7 +159,7 @@
             // 
             this.ComputerStateModifyingArmMovementPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ComputerStateModifyingArmMovementPanel.Controls.Add(this.ComputerStateModifyingArmMovementLabel);
-            this.ComputerStateModifyingArmMovementPanel.Location = new System.Drawing.Point(151, 386);
+            this.ComputerStateModifyingArmMovementPanel.Location = new System.Drawing.Point(151, 369);
             this.ComputerStateModifyingArmMovementPanel.Name = "ComputerStateModifyingArmMovementPanel";
             this.ComputerStateModifyingArmMovementPanel.Size = new System.Drawing.Size(168, 50);
             this.ComputerStateModifyingArmMovementPanel.TabIndex = 11;
@@ -177,7 +177,7 @@
             // MiddleChangableColoredPanel
             // 
             this.MiddleChangableColoredPanel.BackColor = System.Drawing.Color.Lime;
-            this.MiddleChangableColoredPanel.Location = new System.Drawing.Point(228, 111);
+            this.MiddleChangableColoredPanel.Location = new System.Drawing.Point(228, 94);
             this.MiddleChangableColoredPanel.Name = "MiddleChangableColoredPanel";
             this.MiddleChangableColoredPanel.Size = new System.Drawing.Size(20, 275);
             this.MiddleChangableColoredPanel.TabIndex = 15;
@@ -186,7 +186,7 @@
             // 
             this.ArduinoStateOffPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ArduinoStateOffPanel.Controls.Add(this.ArduinoStateOffLabel);
-            this.ArduinoStateOffPanel.Location = new System.Drawing.Point(3, 126);
+            this.ArduinoStateOffPanel.Location = new System.Drawing.Point(3, 109);
             this.ArduinoStateOffPanel.Name = "ArduinoStateOffPanel";
             this.ArduinoStateOffPanel.Size = new System.Drawing.Size(150, 50);
             this.ArduinoStateOffPanel.TabIndex = 16;
@@ -205,7 +205,7 @@
             // 
             this.ArduinoStateArmMovementPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ArduinoStateArmMovementPanel.Controls.Add(this.ArduinoStateArmMovementLabel);
-            this.ArduinoStateArmMovementPanel.Location = new System.Drawing.Point(3, 182);
+            this.ArduinoStateArmMovementPanel.Location = new System.Drawing.Point(3, 165);
             this.ArduinoStateArmMovementPanel.Name = "ArduinoStateArmMovementPanel";
             this.ArduinoStateArmMovementPanel.Size = new System.Drawing.Size(150, 50);
             this.ArduinoStateArmMovementPanel.TabIndex = 16;
@@ -224,7 +224,7 @@
             // 
             this.ArduinoStateConveyerBeltPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ArduinoStateConveyerBeltPanel.Controls.Add(this.ArduinoStateConveyerBeltLabel);
-            this.ArduinoStateConveyerBeltPanel.Location = new System.Drawing.Point(3, 238);
+            this.ArduinoStateConveyerBeltPanel.Location = new System.Drawing.Point(3, 221);
             this.ArduinoStateConveyerBeltPanel.Name = "ArduinoStateConveyerBeltPanel";
             this.ArduinoStateConveyerBeltPanel.Size = new System.Drawing.Size(150, 50);
             this.ArduinoStateConveyerBeltPanel.TabIndex = 16;
@@ -243,7 +243,7 @@
             // 
             this.ArduinoStateSensoresPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ArduinoStateSensoresPanel.Controls.Add(this.ArduinoStateSensoresLabel);
-            this.ArduinoStateSensoresPanel.Location = new System.Drawing.Point(3, 294);
+            this.ArduinoStateSensoresPanel.Location = new System.Drawing.Point(3, 277);
             this.ArduinoStateSensoresPanel.Name = "ArduinoStateSensoresPanel";
             this.ArduinoStateSensoresPanel.Size = new System.Drawing.Size(150, 50);
             this.ArduinoStateSensoresPanel.TabIndex = 16;
@@ -262,7 +262,7 @@
             // 
             this.ComputerStateUpdatePackagesAmountsPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ComputerStateUpdatePackagesAmountsPanel.Controls.Add(this.ComputerStateUpdatePackagesAmountsLabel);
-            this.ComputerStateUpdatePackagesAmountsPanel.Location = new System.Drawing.Point(321, 126);
+            this.ComputerStateUpdatePackagesAmountsPanel.Location = new System.Drawing.Point(321, 109);
             this.ComputerStateUpdatePackagesAmountsPanel.Name = "ComputerStateUpdatePackagesAmountsPanel";
             this.ComputerStateUpdatePackagesAmountsPanel.Size = new System.Drawing.Size(150, 50);
             this.ComputerStateUpdatePackagesAmountsPanel.TabIndex = 15;
@@ -281,7 +281,7 @@
             // 
             this.ComputerStateVerifyingPackagesAmountsPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ComputerStateVerifyingPackagesAmountsPanel.Controls.Add(this.ComputerStateVerifyingPackagesAmountsLabel);
-            this.ComputerStateVerifyingPackagesAmountsPanel.Location = new System.Drawing.Point(321, 182);
+            this.ComputerStateVerifyingPackagesAmountsPanel.Location = new System.Drawing.Point(321, 165);
             this.ComputerStateVerifyingPackagesAmountsPanel.Name = "ComputerStateVerifyingPackagesAmountsPanel";
             this.ComputerStateVerifyingPackagesAmountsPanel.Size = new System.Drawing.Size(150, 50);
             this.ComputerStateVerifyingPackagesAmountsPanel.TabIndex = 15;
@@ -300,7 +300,7 @@
             // 
             this.ComputerStateUpdatingUIPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ComputerStateUpdatingUIPanel.Controls.Add(this.ComputerStateUpdatingUILabel);
-            this.ComputerStateUpdatingUIPanel.Location = new System.Drawing.Point(321, 238);
+            this.ComputerStateUpdatingUIPanel.Location = new System.Drawing.Point(321, 221);
             this.ComputerStateUpdatingUIPanel.Name = "ComputerStateUpdatingUIPanel";
             this.ComputerStateUpdatingUIPanel.Size = new System.Drawing.Size(150, 50);
             this.ComputerStateUpdatingUIPanel.TabIndex = 15;
@@ -319,7 +319,7 @@
             // 
             this.ComputerStateWritingDataToArduinoPanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ComputerStateWritingDataToArduinoPanel.Controls.Add(this.ComputerStateWritingDataToArduinoLabel);
-            this.ComputerStateWritingDataToArduinoPanel.Location = new System.Drawing.Point(321, 294);
+            this.ComputerStateWritingDataToArduinoPanel.Location = new System.Drawing.Point(321, 277);
             this.ComputerStateWritingDataToArduinoPanel.Name = "ComputerStateWritingDataToArduinoPanel";
             this.ComputerStateWritingDataToArduinoPanel.Size = new System.Drawing.Size(150, 50);
             this.ComputerStateWritingDataToArduinoPanel.TabIndex = 18;
@@ -339,24 +339,16 @@
             this.ProgramStateTitlePanel.Controls.Add(this.ProgramStatesTitleLabel);
             this.ProgramStateTitlePanel.Location = new System.Drawing.Point(0, 0);
             this.ProgramStateTitlePanel.Name = "ProgramStateTitlePanel";
-            this.ProgramStateTitlePanel.Size = new System.Drawing.Size(474, 44);
+            this.ProgramStateTitlePanel.Size = new System.Drawing.Size(474, 24);
             this.ProgramStateTitlePanel.TabIndex = 21;
             // 
             // panel23
             // 
             this.panel23.Controls.Add(this.ArduinoTitleLabel);
-            this.panel23.Location = new System.Drawing.Point(3, 47);
+            this.panel23.Location = new System.Drawing.Point(3, 30);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(150, 22);
             this.panel23.TabIndex = 24;
-            // 
-            // panel24
-            // 
-            this.panel24.Controls.Add(this.ComputerTitleLabel);
-            this.panel24.Location = new System.Drawing.Point(321, 47);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(150, 22);
-            this.panel24.TabIndex = 25;
             // 
             // ArduinoTitleLabel
             // 
@@ -367,6 +359,14 @@
             this.ArduinoTitleLabel.TabIndex = 0;
             this.ArduinoTitleLabel.Text = "Arduino";
             this.ArduinoTitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel24
+            // 
+            this.panel24.Controls.Add(this.ComputerTitleLabel);
+            this.panel24.Location = new System.Drawing.Point(321, 30);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(150, 22);
+            this.panel24.TabIndex = 25;
             // 
             // ComputerTitleLabel
             // 
@@ -383,7 +383,7 @@
             this.ComputerArrowModifyingArmMovementPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.ComputerArrowModifyingArmMovementPictureBox.BackgroundImage = global::ConveyorBelt_RobotArm.Properties.Resources.gray_arrow_down_transparent;
             this.ComputerArrowModifyingArmMovementPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ComputerArrowModifyingArmMovementPictureBox.Location = new System.Drawing.Point(217, 351);
+            this.ComputerArrowModifyingArmMovementPictureBox.Location = new System.Drawing.Point(217, 334);
             this.ComputerArrowModifyingArmMovementPictureBox.Name = "ComputerArrowModifyingArmMovementPictureBox";
             this.ComputerArrowModifyingArmMovementPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ComputerArrowModifyingArmMovementPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -393,7 +393,7 @@
             // ComputerArrowWritingDataToArduinoPictureBox
             // 
             this.ComputerArrowWritingDataToArduinoPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_right;
-            this.ComputerArrowWritingDataToArduinoPictureBox.Location = new System.Drawing.Point(287, 299);
+            this.ComputerArrowWritingDataToArduinoPictureBox.Location = new System.Drawing.Point(287, 282);
             this.ComputerArrowWritingDataToArduinoPictureBox.Name = "ComputerArrowWritingDataToArduinoPictureBox";
             this.ComputerArrowWritingDataToArduinoPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ComputerArrowWritingDataToArduinoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -404,7 +404,7 @@
             // 
             this.ComputerColoredWritingDataToArduinoPanel.BackColor = System.Drawing.Color.Transparent;
             this.ComputerColoredWritingDataToArduinoPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComputerColoredWritingDataToArduinoPanel.BackgroundImage")));
-            this.ComputerColoredWritingDataToArduinoPanel.Location = new System.Drawing.Point(248, 309);
+            this.ComputerColoredWritingDataToArduinoPanel.Location = new System.Drawing.Point(248, 292);
             this.ComputerColoredWritingDataToArduinoPanel.Name = "ComputerColoredWritingDataToArduinoPanel";
             this.ComputerColoredWritingDataToArduinoPanel.Size = new System.Drawing.Size(71, 20);
             this.ComputerColoredWritingDataToArduinoPanel.TabIndex = 20;
@@ -412,7 +412,7 @@
             // ComputerArrowUpdatingUIPictureBox
             // 
             this.ComputerArrowUpdatingUIPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_right;
-            this.ComputerArrowUpdatingUIPictureBox.Location = new System.Drawing.Point(287, 243);
+            this.ComputerArrowUpdatingUIPictureBox.Location = new System.Drawing.Point(287, 226);
             this.ComputerArrowUpdatingUIPictureBox.Name = "ComputerArrowUpdatingUIPictureBox";
             this.ComputerArrowUpdatingUIPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ComputerArrowUpdatingUIPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -423,7 +423,7 @@
             // 
             this.ComputerColoredUpdatingUIPanel.BackColor = System.Drawing.Color.Transparent;
             this.ComputerColoredUpdatingUIPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComputerColoredUpdatingUIPanel.BackgroundImage")));
-            this.ComputerColoredUpdatingUIPanel.Location = new System.Drawing.Point(248, 253);
+            this.ComputerColoredUpdatingUIPanel.Location = new System.Drawing.Point(248, 236);
             this.ComputerColoredUpdatingUIPanel.Name = "ComputerColoredUpdatingUIPanel";
             this.ComputerColoredUpdatingUIPanel.Size = new System.Drawing.Size(71, 20);
             this.ComputerColoredUpdatingUIPanel.TabIndex = 17;
@@ -431,7 +431,7 @@
             // ComputerArrowVerifyingPackagesAmountsPictureBox
             // 
             this.ComputerArrowVerifyingPackagesAmountsPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_right;
-            this.ComputerArrowVerifyingPackagesAmountsPictureBox.Location = new System.Drawing.Point(287, 187);
+            this.ComputerArrowVerifyingPackagesAmountsPictureBox.Location = new System.Drawing.Point(287, 170);
             this.ComputerArrowVerifyingPackagesAmountsPictureBox.Name = "ComputerArrowVerifyingPackagesAmountsPictureBox";
             this.ComputerArrowVerifyingPackagesAmountsPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ComputerArrowVerifyingPackagesAmountsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -442,7 +442,7 @@
             // 
             this.ComputerColoredVerifyingPackagesAmountsPanel.BackColor = System.Drawing.Color.Transparent;
             this.ComputerColoredVerifyingPackagesAmountsPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComputerColoredVerifyingPackagesAmountsPanel.BackgroundImage")));
-            this.ComputerColoredVerifyingPackagesAmountsPanel.Location = new System.Drawing.Point(248, 197);
+            this.ComputerColoredVerifyingPackagesAmountsPanel.Location = new System.Drawing.Point(248, 180);
             this.ComputerColoredVerifyingPackagesAmountsPanel.Name = "ComputerColoredVerifyingPackagesAmountsPanel";
             this.ComputerColoredVerifyingPackagesAmountsPanel.Size = new System.Drawing.Size(71, 20);
             this.ComputerColoredVerifyingPackagesAmountsPanel.TabIndex = 17;
@@ -450,7 +450,7 @@
             // ComputerArrowUpdatePackagesAmountsPictureBox
             // 
             this.ComputerArrowUpdatePackagesAmountsPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_right;
-            this.ComputerArrowUpdatePackagesAmountsPictureBox.Location = new System.Drawing.Point(287, 131);
+            this.ComputerArrowUpdatePackagesAmountsPictureBox.Location = new System.Drawing.Point(287, 114);
             this.ComputerArrowUpdatePackagesAmountsPictureBox.Name = "ComputerArrowUpdatePackagesAmountsPictureBox";
             this.ComputerArrowUpdatePackagesAmountsPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ComputerArrowUpdatePackagesAmountsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -461,7 +461,7 @@
             // 
             this.ComputerColoredUpdatePackagesAmountsPanel.BackColor = System.Drawing.Color.Transparent;
             this.ComputerColoredUpdatePackagesAmountsPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComputerColoredUpdatePackagesAmountsPanel.BackgroundImage")));
-            this.ComputerColoredUpdatePackagesAmountsPanel.Location = new System.Drawing.Point(248, 141);
+            this.ComputerColoredUpdatePackagesAmountsPanel.Location = new System.Drawing.Point(248, 124);
             this.ComputerColoredUpdatePackagesAmountsPanel.Name = "ComputerColoredUpdatePackagesAmountsPanel";
             this.ComputerColoredUpdatePackagesAmountsPanel.Size = new System.Drawing.Size(71, 20);
             this.ComputerColoredUpdatePackagesAmountsPanel.TabIndex = 17;
@@ -469,7 +469,7 @@
             // ArduinoArrowSensoresPictureBox
             // 
             this.ArduinoArrowSensoresPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_left;
-            this.ArduinoArrowSensoresPictureBox.Location = new System.Drawing.Point(147, 299);
+            this.ArduinoArrowSensoresPictureBox.Location = new System.Drawing.Point(147, 282);
             this.ArduinoArrowSensoresPictureBox.Name = "ArduinoArrowSensoresPictureBox";
             this.ArduinoArrowSensoresPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ArduinoArrowSensoresPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -480,7 +480,7 @@
             // 
             this.ArduinoColoredSensoresPanel.BackColor = System.Drawing.Color.Transparent;
             this.ArduinoColoredSensoresPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ArduinoColoredSensoresPanel.BackgroundImage")));
-            this.ArduinoColoredSensoresPanel.Location = new System.Drawing.Point(151, 309);
+            this.ArduinoColoredSensoresPanel.Location = new System.Drawing.Point(151, 292);
             this.ArduinoColoredSensoresPanel.Name = "ArduinoColoredSensoresPanel";
             this.ArduinoColoredSensoresPanel.Size = new System.Drawing.Size(77, 20);
             this.ArduinoColoredSensoresPanel.TabIndex = 18;
@@ -488,7 +488,7 @@
             // ArduinoArrowConveyerBeltPictureBox
             // 
             this.ArduinoArrowConveyerBeltPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_left;
-            this.ArduinoArrowConveyerBeltPictureBox.Location = new System.Drawing.Point(147, 243);
+            this.ArduinoArrowConveyerBeltPictureBox.Location = new System.Drawing.Point(147, 226);
             this.ArduinoArrowConveyerBeltPictureBox.Name = "ArduinoArrowConveyerBeltPictureBox";
             this.ArduinoArrowConveyerBeltPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ArduinoArrowConveyerBeltPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -499,7 +499,7 @@
             // 
             this.ArduinoColoredConveyerBeltPanel.BackColor = System.Drawing.Color.Transparent;
             this.ArduinoColoredConveyerBeltPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ArduinoColoredConveyerBeltPanel.BackgroundImage")));
-            this.ArduinoColoredConveyerBeltPanel.Location = new System.Drawing.Point(151, 253);
+            this.ArduinoColoredConveyerBeltPanel.Location = new System.Drawing.Point(151, 236);
             this.ArduinoColoredConveyerBeltPanel.Name = "ArduinoColoredConveyerBeltPanel";
             this.ArduinoColoredConveyerBeltPanel.Size = new System.Drawing.Size(77, 20);
             this.ArduinoColoredConveyerBeltPanel.TabIndex = 18;
@@ -507,7 +507,7 @@
             // ArduinoArrowArmMovementPictureBox
             // 
             this.ArduinoArrowArmMovementPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_left;
-            this.ArduinoArrowArmMovementPictureBox.Location = new System.Drawing.Point(147, 187);
+            this.ArduinoArrowArmMovementPictureBox.Location = new System.Drawing.Point(147, 170);
             this.ArduinoArrowArmMovementPictureBox.Name = "ArduinoArrowArmMovementPictureBox";
             this.ArduinoArrowArmMovementPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ArduinoArrowArmMovementPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -518,7 +518,7 @@
             // 
             this.ArduinoColoredArmMovementPanel.BackColor = System.Drawing.Color.Transparent;
             this.ArduinoColoredArmMovementPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ArduinoColoredArmMovementPanel.BackgroundImage")));
-            this.ArduinoColoredArmMovementPanel.Location = new System.Drawing.Point(151, 197);
+            this.ArduinoColoredArmMovementPanel.Location = new System.Drawing.Point(151, 180);
             this.ArduinoColoredArmMovementPanel.Name = "ArduinoColoredArmMovementPanel";
             this.ArduinoColoredArmMovementPanel.Size = new System.Drawing.Size(77, 20);
             this.ArduinoColoredArmMovementPanel.TabIndex = 18;
@@ -526,7 +526,7 @@
             // ArduinoArrowOffPictureBox
             // 
             this.ArduinoArrowOffPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_left;
-            this.ArduinoArrowOffPictureBox.Location = new System.Drawing.Point(147, 131);
+            this.ArduinoArrowOffPictureBox.Location = new System.Drawing.Point(147, 114);
             this.ArduinoArrowOffPictureBox.Name = "ArduinoArrowOffPictureBox";
             this.ArduinoArrowOffPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ArduinoArrowOffPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -537,7 +537,7 @@
             // 
             this.ArduinoColoredOffPanel.BackColor = System.Drawing.Color.Transparent;
             this.ArduinoColoredOffPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ArduinoColoredOffPanel.BackgroundImage")));
-            this.ArduinoColoredOffPanel.Location = new System.Drawing.Point(151, 141);
+            this.ArduinoColoredOffPanel.Location = new System.Drawing.Point(151, 124);
             this.ArduinoColoredOffPanel.Name = "ArduinoColoredOffPanel";
             this.ArduinoColoredOffPanel.Size = new System.Drawing.Size(77, 20);
             this.ArduinoColoredOffPanel.TabIndex = 18;
@@ -545,7 +545,7 @@
             // ArduinoArrowOnPictureBox
             // 
             this.ArduinoArrowOnPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_left;
-            this.ArduinoArrowOnPictureBox.Location = new System.Drawing.Point(147, 75);
+            this.ArduinoArrowOnPictureBox.Location = new System.Drawing.Point(147, 58);
             this.ArduinoArrowOnPictureBox.Name = "ArduinoArrowOnPictureBox";
             this.ArduinoArrowOnPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ArduinoArrowOnPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -556,7 +556,7 @@
             // 
             this.ArduinoColoredOnPanel.BackColor = System.Drawing.Color.Transparent;
             this.ArduinoColoredOnPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ArduinoColoredOnPanel.BackgroundImage")));
-            this.ArduinoColoredOnPanel.Location = new System.Drawing.Point(151, 85);
+            this.ArduinoColoredOnPanel.Location = new System.Drawing.Point(151, 68);
             this.ArduinoColoredOnPanel.Name = "ArduinoColoredOnPanel";
             this.ArduinoColoredOnPanel.Size = new System.Drawing.Size(77, 20);
             this.ArduinoColoredOnPanel.TabIndex = 15;
@@ -564,7 +564,7 @@
             // ComputerArrowArmUIWorkFlowPictureBox
             // 
             this.ComputerArrowArmUIWorkFlowPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green_arrow_right;
-            this.ComputerArrowArmUIWorkFlowPictureBox.Location = new System.Drawing.Point(287, 75);
+            this.ComputerArrowArmUIWorkFlowPictureBox.Location = new System.Drawing.Point(287, 58);
             this.ComputerArrowArmUIWorkFlowPictureBox.Name = "ComputerArrowArmUIWorkFlowPictureBox";
             this.ComputerArrowArmUIWorkFlowPictureBox.Size = new System.Drawing.Size(40, 40);
             this.ComputerArrowArmUIWorkFlowPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -575,7 +575,7 @@
             // 
             this.ComputerColoredArmUIWorkFlowPanel.BackColor = System.Drawing.Color.Transparent;
             this.ComputerColoredArmUIWorkFlowPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ComputerColoredArmUIWorkFlowPanel.BackgroundImage")));
-            this.ComputerColoredArmUIWorkFlowPanel.Location = new System.Drawing.Point(248, 85);
+            this.ComputerColoredArmUIWorkFlowPanel.Location = new System.Drawing.Point(248, 68);
             this.ComputerColoredArmUIWorkFlowPanel.Name = "ComputerColoredArmUIWorkFlowPanel";
             this.ComputerColoredArmUIWorkFlowPanel.Size = new System.Drawing.Size(71, 20);
             this.ComputerColoredArmUIWorkFlowPanel.TabIndex = 14;
@@ -584,7 +584,7 @@
             // 
             this.MiddleGrayColoredPanel.BackColor = System.Drawing.Color.Transparent;
             this.MiddleGrayColoredPanel.BackgroundImage = global::ConveyorBelt_RobotArm.Properties.Resources.gray_transparent;
-            this.MiddleGrayColoredPanel.Location = new System.Drawing.Point(228, 85);
+            this.MiddleGrayColoredPanel.Location = new System.Drawing.Point(228, 68);
             this.MiddleGrayColoredPanel.Name = "MiddleGrayColoredPanel";
             this.MiddleGrayColoredPanel.Size = new System.Drawing.Size(20, 301);
             this.MiddleGrayColoredPanel.TabIndex = 22;
@@ -631,7 +631,7 @@
             this.Controls.Add(this.ProgramStateTitlePanel);
             this.Controls.Add(this.MiddleGrayColoredPanel);
             this.Name = "ProgramStates";
-            this.Size = new System.Drawing.Size(474, 450);
+            this.Size = new System.Drawing.Size(474, 420);
             this.ArduinoStateOnPanel.ResumeLayout(false);
             this.ComputerStateArmUIWorkFlowPanel.ResumeLayout(false);
             this.ComputerStateModifyingArmMovementPanel.ResumeLayout(false);

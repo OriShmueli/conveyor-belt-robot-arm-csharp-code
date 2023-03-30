@@ -34,6 +34,10 @@
             this.StopRecordingButton = new System.Windows.Forms.Button();
             this.Servo1TrackBar = new System.Windows.Forms.TrackBar();
             this.RobotArmWorkFlowPanel = new System.Windows.Forms.Panel();
+            this.EndMinusPictureBox = new System.Windows.Forms.PictureBox();
+            this.EndPlusPictureBox = new System.Windows.Forms.PictureBox();
+            this.StartMinusPictureBox = new System.Windows.Forms.PictureBox();
+            this.StartPlusPictureBox = new System.Windows.Forms.PictureBox();
             this.StartSensoreLabel = new System.Windows.Forms.Label();
             this.SensorePictureBox = new System.Windows.Forms.PictureBox();
             this.StartPart1Piece1Panel = new System.Windows.Forms.Panel();
@@ -133,12 +137,12 @@
             this.ModifyingCurrentStageLabel = new System.Windows.Forms.Label();
             this.ModifyingCurrentStageLabelText = new System.Windows.Forms.Label();
             this.ServoEditingPanel = new System.Windows.Forms.Panel();
-            this.StartPlusPictureBox = new System.Windows.Forms.PictureBox();
-            this.StartMinusPictureBox = new System.Windows.Forms.PictureBox();
-            this.EndMinusPictureBox = new System.Windows.Forms.PictureBox();
-            this.EndPlusPictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Servo1TrackBar)).BeginInit();
             this.RobotArmWorkFlowPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.EndMinusPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EndPlusPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StartMinusPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StartPlusPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SensorePictureBox)).BeginInit();
             this.StartPanel.SuspendLayout();
             this.EndPanel.SuspendLayout();
@@ -177,17 +181,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.Servo4NumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Servo4TrackBar)).BeginInit();
             this.ServoEditingPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.StartPlusPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StartMinusPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.EndMinusPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.EndPlusPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // EnterRecordingStateButton
             // 
             this.EnterRecordingStateButton.Location = new System.Drawing.Point(3, 3);
             this.EnterRecordingStateButton.Name = "EnterRecordingStateButton";
-            this.EnterRecordingStateButton.Size = new System.Drawing.Size(186, 42);
+            this.EnterRecordingStateButton.Size = new System.Drawing.Size(186, 34);
             this.EnterRecordingStateButton.TabIndex = 0;
             this.EnterRecordingStateButton.Text = "Enter Recording State";
             this.EnterRecordingStateButton.UseVisualStyleBackColor = true;
@@ -223,6 +223,8 @@
             // 
             // RobotArmWorkFlowPanel
             // 
+            this.RobotArmWorkFlowPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.RobotArmWorkFlowPanel.Controls.Add(this.EndMinusPictureBox);
             this.RobotArmWorkFlowPanel.Controls.Add(this.EndPlusPictureBox);
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartMinusPictureBox);
@@ -272,10 +274,54 @@
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartPart2Piece1Panel);
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartPart1Piece2PictureBox);
             this.RobotArmWorkFlowPanel.Controls.Add(this.EndPiece3Panel);
-            this.RobotArmWorkFlowPanel.Location = new System.Drawing.Point(530, 65);
+            this.RobotArmWorkFlowPanel.Location = new System.Drawing.Point(610, 39);
             this.RobotArmWorkFlowPanel.Name = "RobotArmWorkFlowPanel";
             this.RobotArmWorkFlowPanel.Size = new System.Drawing.Size(1264, 422);
             this.RobotArmWorkFlowPanel.TabIndex = 9;
+            // 
+            // EndMinusPictureBox
+            // 
+            this.EndMinusPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.EndMinusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.minus_off;
+            this.EndMinusPictureBox.Location = new System.Drawing.Point(1077, 258);
+            this.EndMinusPictureBox.Name = "EndMinusPictureBox";
+            this.EndMinusPictureBox.Size = new System.Drawing.Size(40, 40);
+            this.EndMinusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.EndMinusPictureBox.TabIndex = 39;
+            this.EndMinusPictureBox.TabStop = false;
+            // 
+            // EndPlusPictureBox
+            // 
+            this.EndPlusPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.EndPlusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.plus_off;
+            this.EndPlusPictureBox.Location = new System.Drawing.Point(1077, 137);
+            this.EndPlusPictureBox.Name = "EndPlusPictureBox";
+            this.EndPlusPictureBox.Size = new System.Drawing.Size(40, 40);
+            this.EndPlusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.EndPlusPictureBox.TabIndex = 38;
+            this.EndPlusPictureBox.TabStop = false;
+            // 
+            // StartMinusPictureBox
+            // 
+            this.StartMinusPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.StartMinusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.minus_off;
+            this.StartMinusPictureBox.Location = new System.Drawing.Point(567, 259);
+            this.StartMinusPictureBox.Name = "StartMinusPictureBox";
+            this.StartMinusPictureBox.Size = new System.Drawing.Size(40, 40);
+            this.StartMinusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.StartMinusPictureBox.TabIndex = 37;
+            this.StartMinusPictureBox.TabStop = false;
+            // 
+            // StartPlusPictureBox
+            // 
+            this.StartPlusPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.StartPlusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.plus_off;
+            this.StartPlusPictureBox.Location = new System.Drawing.Point(567, 137);
+            this.StartPlusPictureBox.Name = "StartPlusPictureBox";
+            this.StartPlusPictureBox.Size = new System.Drawing.Size(40, 40);
+            this.StartPlusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.StartPlusPictureBox.TabIndex = 36;
+            this.StartPlusPictureBox.TabStop = false;
             // 
             // StartSensoreLabel
             // 
@@ -1175,7 +1221,7 @@
             // 
             // UpdateStatusProgressBar
             // 
-            this.UpdateStatusProgressBar.Location = new System.Drawing.Point(320, 15);
+            this.UpdateStatusProgressBar.Location = new System.Drawing.Point(892, 7);
             this.UpdateStatusProgressBar.Name = "UpdateStatusProgressBar";
             this.UpdateStatusProgressBar.Size = new System.Drawing.Size(248, 30);
             this.UpdateStatusProgressBar.TabIndex = 15;
@@ -1183,7 +1229,7 @@
             // UpdateStatusLabel
             // 
             this.UpdateStatusLabel.AutoSize = true;
-            this.UpdateStatusLabel.Location = new System.Drawing.Point(214, 21);
+            this.UpdateStatusLabel.Location = new System.Drawing.Point(782, 16);
             this.UpdateStatusLabel.Name = "UpdateStatusLabel";
             this.UpdateStatusLabel.Size = new System.Drawing.Size(95, 16);
             this.UpdateStatusLabel.TabIndex = 16;
@@ -1192,7 +1238,7 @@
             // UpdateStatusMessageLabel
             // 
             this.UpdateStatusMessageLabel.AutoSize = true;
-            this.UpdateStatusMessageLabel.Location = new System.Drawing.Point(574, 21);
+            this.UpdateStatusMessageLabel.Location = new System.Drawing.Point(1165, 16);
             this.UpdateStatusMessageLabel.Name = "UpdateStatusMessageLabel";
             this.UpdateStatusMessageLabel.Size = new System.Drawing.Size(67, 16);
             this.UpdateStatusMessageLabel.TabIndex = 17;
@@ -1201,7 +1247,7 @@
             // UpdateStatusMessageLabelText
             // 
             this.UpdateStatusMessageLabelText.AutoSize = true;
-            this.UpdateStatusMessageLabelText.Location = new System.Drawing.Point(643, 21);
+            this.UpdateStatusMessageLabelText.Location = new System.Drawing.Point(1238, 16);
             this.UpdateStatusMessageLabelText.Name = "UpdateStatusMessageLabelText";
             this.UpdateStatusMessageLabelText.Size = new System.Drawing.Size(85, 16);
             this.UpdateStatusMessageLabelText.TabIndex = 18;
@@ -1236,6 +1282,8 @@
             // 
             // ServoEditingPanel
             // 
+            this.ServoEditingPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.ServoEditingPanel.Controls.Add(this.Servo1Panel);
             this.ServoEditingPanel.Controls.Add(this.ModifyingCurrentStageLabelText);
             this.ServoEditingPanel.Controls.Add(this.StartRecordingButton);
@@ -1246,59 +1294,16 @@
             this.ServoEditingPanel.Controls.Add(this.Servo3Panel);
             this.ServoEditingPanel.Controls.Add(this.Servo4Panel);
             this.ServoEditingPanel.Controls.Add(this.UpdateLocationsButton);
-            this.ServoEditingPanel.Location = new System.Drawing.Point(3, 74);
+            this.ServoEditingPanel.Location = new System.Drawing.Point(3, 39);
             this.ServoEditingPanel.Name = "ServoEditingPanel";
             this.ServoEditingPanel.Size = new System.Drawing.Size(524, 392);
             this.ServoEditingPanel.TabIndex = 22;
-            // 
-            // StartPlusPictureBox
-            // 
-            this.StartPlusPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.StartPlusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.plus_off;
-            this.StartPlusPictureBox.Location = new System.Drawing.Point(567, 137);
-            this.StartPlusPictureBox.Name = "StartPlusPictureBox";
-            this.StartPlusPictureBox.Size = new System.Drawing.Size(40, 40);
-            this.StartPlusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.StartPlusPictureBox.TabIndex = 36;
-            this.StartPlusPictureBox.TabStop = false;
-            // 
-            // StartMinusPictureBox
-            // 
-            this.StartMinusPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.StartMinusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.minus_off;
-            this.StartMinusPictureBox.Location = new System.Drawing.Point(567, 259);
-            this.StartMinusPictureBox.Name = "StartMinusPictureBox";
-            this.StartMinusPictureBox.Size = new System.Drawing.Size(40, 40);
-            this.StartMinusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.StartMinusPictureBox.TabIndex = 37;
-            this.StartMinusPictureBox.TabStop = false;
-            // 
-            // EndMinusPictureBox
-            // 
-            this.EndMinusPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.EndMinusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.minus_off;
-            this.EndMinusPictureBox.Location = new System.Drawing.Point(1077, 258);
-            this.EndMinusPictureBox.Name = "EndMinusPictureBox";
-            this.EndMinusPictureBox.Size = new System.Drawing.Size(40, 40);
-            this.EndMinusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.EndMinusPictureBox.TabIndex = 39;
-            this.EndMinusPictureBox.TabStop = false;
-            // 
-            // EndPlusPictureBox
-            // 
-            this.EndPlusPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.EndPlusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.plus_off;
-            this.EndPlusPictureBox.Location = new System.Drawing.Point(1077, 137);
-            this.EndPlusPictureBox.Name = "EndPlusPictureBox";
-            this.EndPlusPictureBox.Size = new System.Drawing.Size(40, 40);
-            this.EndPlusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.EndPlusPictureBox.TabIndex = 38;
-            this.EndPlusPictureBox.TabStop = false;
             // 
             // RobotArm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.ServoEditingPanel);
             this.Controls.Add(this.UpdateStatusMessageLabelText);
             this.Controls.Add(this.UpdateStatusMessageLabel);
@@ -1307,10 +1312,14 @@
             this.Controls.Add(this.RobotArmWorkFlowPanel);
             this.Controls.Add(this.EnterRecordingStateButton);
             this.Name = "RobotArm";
-            this.Size = new System.Drawing.Size(1800, 490);
+            this.Size = new System.Drawing.Size(1877, 490);
             ((System.ComponentModel.ISupportInitialize)(this.Servo1TrackBar)).EndInit();
             this.RobotArmWorkFlowPanel.ResumeLayout(false);
             this.RobotArmWorkFlowPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.EndMinusPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EndPlusPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StartMinusPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StartPlusPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SensorePictureBox)).EndInit();
             this.StartPanel.ResumeLayout(false);
             this.StartPanel.PerformLayout();
@@ -1356,10 +1365,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Servo4TrackBar)).EndInit();
             this.ServoEditingPanel.ResumeLayout(false);
             this.ServoEditingPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.StartPlusPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StartMinusPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.EndMinusPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.EndPlusPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
