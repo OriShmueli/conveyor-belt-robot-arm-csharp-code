@@ -46,26 +46,72 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DistanceSensore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DistanceSensore.Designer.cs">
+      <DependentUpon>DistanceSensore.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PackagesAmount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PackagesAmount.Designer.cs">
+      <DependentUpon>PackagesAmount.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramStates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgramStates.Designer.cs">
+      <DependentUpon>ProgramStates.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RobotArm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RobotArm.Designer.cs">
+      <DependentUpon>RobotArm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SerialConsole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SerialConsole.Designer.cs">
+      <DependentUpon>SerialConsole.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DistanceSensore.resx">
+      <DependentUpon>DistanceSensore.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PackagesAmount.resx">
+      <DependentUpon>PackagesAmount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramStates.resx">
+      <DependentUpon>ProgramStates.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="RobotArm.resx">
+      <DependentUpon>RobotArm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialConsole.resx">
+      <DependentUpon>SerialConsole.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +124,177 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purple Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowPng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90-degree-rotate-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45-degree-rotate-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\180-degree-rotate-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hollow circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hollow circle 2 px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black triangle222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black arrow up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black arrow down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turn-off-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turn-on-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black arrow left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green arrow right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green arrow down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green arrow up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green arrow left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple arrow right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mgnetic blue package long.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black and yello package long.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black and yello package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnetic package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensore icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensore icon black and yellow package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensore icon magnetic and blue package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sensore icon white package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-checkmark-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-x-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray arrow down transperent test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray arrow down transperent test 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray arrow down transparent test 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray arrow left transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray arrow right transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray arrow down transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue arrow left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue arrow right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue arrow down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degrees pattern transparent.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
