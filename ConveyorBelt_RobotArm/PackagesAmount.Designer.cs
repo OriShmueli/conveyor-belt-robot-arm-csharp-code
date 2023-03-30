@@ -49,27 +49,30 @@
             // 
             this.XBlackAndYellowBoxLabel.AutoSize = true;
             this.XBlackAndYellowBoxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.XBlackAndYellowBoxLabel.Location = new System.Drawing.Point(6, 18);
+            this.XBlackAndYellowBoxLabel.Location = new System.Drawing.Point(4, 15);
+            this.XBlackAndYellowBoxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.XBlackAndYellowBoxLabel.Name = "XBlackAndYellowBoxLabel";
-            this.XBlackAndYellowBoxLabel.Size = new System.Drawing.Size(20, 20);
+            this.XBlackAndYellowBoxLabel.Size = new System.Drawing.Size(17, 17);
             this.XBlackAndYellowBoxLabel.TabIndex = 2;
             this.XBlackAndYellowBoxLabel.Text = "X";
             // 
             // NumberBlackAndYellowBoxLabelText
             // 
             this.NumberBlackAndYellowBoxLabelText.AutoSize = true;
-            this.NumberBlackAndYellowBoxLabelText.Location = new System.Drawing.Point(24, 21);
+            this.NumberBlackAndYellowBoxLabelText.Location = new System.Drawing.Point(18, 17);
+            this.NumberBlackAndYellowBoxLabelText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NumberBlackAndYellowBoxLabelText.Name = "NumberBlackAndYellowBoxLabelText";
-            this.NumberBlackAndYellowBoxLabelText.Size = new System.Drawing.Size(28, 16);
+            this.NumberBlackAndYellowBoxLabelText.Size = new System.Drawing.Size(25, 13);
             this.NumberBlackAndYellowBoxLabelText.TabIndex = 3;
             this.NumberBlackAndYellowBoxLabelText.Text = "800";
             // 
             // NumberMagneticAndBlueBoxLabelText
             // 
             this.NumberMagneticAndBlueBoxLabelText.AutoSize = true;
-            this.NumberMagneticAndBlueBoxLabelText.Location = new System.Drawing.Point(134, 21);
+            this.NumberMagneticAndBlueBoxLabelText.Location = new System.Drawing.Point(100, 17);
+            this.NumberMagneticAndBlueBoxLabelText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NumberMagneticAndBlueBoxLabelText.Name = "NumberMagneticAndBlueBoxLabelText";
-            this.NumberMagneticAndBlueBoxLabelText.Size = new System.Drawing.Size(28, 16);
+            this.NumberMagneticAndBlueBoxLabelText.Size = new System.Drawing.Size(25, 13);
             this.NumberMagneticAndBlueBoxLabelText.TabIndex = 5;
             this.NumberMagneticAndBlueBoxLabelText.Text = "800";
             // 
@@ -77,18 +80,20 @@
             // 
             this.XMagneticAndBlueBoxLabel.AutoSize = true;
             this.XMagneticAndBlueBoxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.XMagneticAndBlueBoxLabel.Location = new System.Drawing.Point(118, 18);
+            this.XMagneticAndBlueBoxLabel.Location = new System.Drawing.Point(88, 15);
+            this.XMagneticAndBlueBoxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.XMagneticAndBlueBoxLabel.Name = "XMagneticAndBlueBoxLabel";
-            this.XMagneticAndBlueBoxLabel.Size = new System.Drawing.Size(20, 20);
+            this.XMagneticAndBlueBoxLabel.Size = new System.Drawing.Size(17, 17);
             this.XMagneticAndBlueBoxLabel.TabIndex = 4;
             this.XMagneticAndBlueBoxLabel.Text = "X";
             // 
             // NumberWhiteBoxLabelText
             // 
             this.NumberWhiteBoxLabelText.AutoSize = true;
-            this.NumberWhiteBoxLabelText.Location = new System.Drawing.Point(250, 21);
+            this.NumberWhiteBoxLabelText.Location = new System.Drawing.Point(188, 17);
+            this.NumberWhiteBoxLabelText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NumberWhiteBoxLabelText.Name = "NumberWhiteBoxLabelText";
-            this.NumberWhiteBoxLabelText.Size = new System.Drawing.Size(28, 16);
+            this.NumberWhiteBoxLabelText.Size = new System.Drawing.Size(25, 13);
             this.NumberWhiteBoxLabelText.TabIndex = 8;
             this.NumberWhiteBoxLabelText.Text = "100";
             // 
@@ -96,18 +101,20 @@
             // 
             this.XWhiteBoxLabel.AutoSize = true;
             this.XWhiteBoxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.XWhiteBoxLabel.Location = new System.Drawing.Point(235, 18);
+            this.XWhiteBoxLabel.Location = new System.Drawing.Point(176, 15);
+            this.XWhiteBoxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.XWhiteBoxLabel.Name = "XWhiteBoxLabel";
-            this.XWhiteBoxLabel.Size = new System.Drawing.Size(20, 20);
+            this.XWhiteBoxLabel.Size = new System.Drawing.Size(17, 17);
             this.XWhiteBoxLabel.TabIndex = 7;
             this.XWhiteBoxLabel.Text = "X";
             // 
             // BoxesAmountStatusPictureBox
             // 
             this.BoxesAmountStatusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.update_icon;
-            this.BoxesAmountStatusPictureBox.Location = new System.Drawing.Point(421, 3);
+            this.BoxesAmountStatusPictureBox.Location = new System.Drawing.Point(316, 2);
+            this.BoxesAmountStatusPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BoxesAmountStatusPictureBox.Name = "BoxesAmountStatusPictureBox";
-            this.BoxesAmountStatusPictureBox.Size = new System.Drawing.Size(50, 50);
+            this.BoxesAmountStatusPictureBox.Size = new System.Drawing.Size(38, 41);
             this.BoxesAmountStatusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BoxesAmountStatusPictureBox.TabIndex = 9;
             this.BoxesAmountStatusPictureBox.TabStop = false;
@@ -116,9 +123,10 @@
             // 
             this.WhiteBoxAmountPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.WhiteBoxAmountPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.white_box;
-            this.WhiteBoxAmountPictureBox.Location = new System.Drawing.Point(280, 3);
+            this.WhiteBoxAmountPictureBox.Location = new System.Drawing.Point(210, 2);
+            this.WhiteBoxAmountPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.WhiteBoxAmountPictureBox.Name = "WhiteBoxAmountPictureBox";
-            this.WhiteBoxAmountPictureBox.Size = new System.Drawing.Size(50, 50);
+            this.WhiteBoxAmountPictureBox.Size = new System.Drawing.Size(38, 41);
             this.WhiteBoxAmountPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.WhiteBoxAmountPictureBox.TabIndex = 6;
             this.WhiteBoxAmountPictureBox.TabStop = false;
@@ -126,9 +134,10 @@
             // MagneticAndBlueBoxAmountPictureBox
             // 
             this.MagneticAndBlueBoxAmountPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.magnetic_package;
-            this.MagneticAndBlueBoxAmountPictureBox.Location = new System.Drawing.Point(165, 3);
+            this.MagneticAndBlueBoxAmountPictureBox.Location = new System.Drawing.Point(124, 2);
+            this.MagneticAndBlueBoxAmountPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MagneticAndBlueBoxAmountPictureBox.Name = "MagneticAndBlueBoxAmountPictureBox";
-            this.MagneticAndBlueBoxAmountPictureBox.Size = new System.Drawing.Size(50, 50);
+            this.MagneticAndBlueBoxAmountPictureBox.Size = new System.Drawing.Size(38, 41);
             this.MagneticAndBlueBoxAmountPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MagneticAndBlueBoxAmountPictureBox.TabIndex = 1;
             this.MagneticAndBlueBoxAmountPictureBox.TabStop = false;
@@ -136,9 +145,10 @@
             // BlackAndYellowBoxAmountPictureBox
             // 
             this.BlackAndYellowBoxAmountPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.black_and_yello_package;
-            this.BlackAndYellowBoxAmountPictureBox.Location = new System.Drawing.Point(56, 3);
+            this.BlackAndYellowBoxAmountPictureBox.Location = new System.Drawing.Point(42, 2);
+            this.BlackAndYellowBoxAmountPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BlackAndYellowBoxAmountPictureBox.Name = "BlackAndYellowBoxAmountPictureBox";
-            this.BlackAndYellowBoxAmountPictureBox.Size = new System.Drawing.Size(50, 50);
+            this.BlackAndYellowBoxAmountPictureBox.Size = new System.Drawing.Size(38, 41);
             this.BlackAndYellowBoxAmountPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BlackAndYellowBoxAmountPictureBox.TabIndex = 0;
             this.BlackAndYellowBoxAmountPictureBox.TabStop = false;
@@ -146,29 +156,31 @@
             // BoxesAmountStatusLabelText
             // 
             this.BoxesAmountStatusLabelText.AutoSize = true;
-            this.BoxesAmountStatusLabelText.Location = new System.Drawing.Point(343, 22);
+            this.BoxesAmountStatusLabelText.Location = new System.Drawing.Point(257, 18);
+            this.BoxesAmountStatusLabelText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.BoxesAmountStatusLabelText.Name = "BoxesAmountStatusLabelText";
-            this.BoxesAmountStatusLabelText.Size = new System.Drawing.Size(73, 16);
+            this.BoxesAmountStatusLabelText.Size = new System.Drawing.Size(57, 13);
             this.BoxesAmountStatusLabelText.TabIndex = 10;
             this.BoxesAmountStatusLabelText.Text = "Completed";
             // 
             // PackagesAmount
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.WhiteBoxAmountPictureBox);
+            this.Controls.Add(this.MagneticAndBlueBoxAmountPictureBox);
+            this.Controls.Add(this.BlackAndYellowBoxAmountPictureBox);
             this.Controls.Add(this.NumberBlackAndYellowBoxLabelText);
             this.Controls.Add(this.BoxesAmountStatusLabelText);
             this.Controls.Add(this.XBlackAndYellowBoxLabel);
             this.Controls.Add(this.BoxesAmountStatusPictureBox);
             this.Controls.Add(this.NumberWhiteBoxLabelText);
             this.Controls.Add(this.XWhiteBoxLabel);
-            this.Controls.Add(this.WhiteBoxAmountPictureBox);
             this.Controls.Add(this.NumberMagneticAndBlueBoxLabelText);
             this.Controls.Add(this.XMagneticAndBlueBoxLabel);
-            this.Controls.Add(this.MagneticAndBlueBoxAmountPictureBox);
-            this.Controls.Add(this.BlackAndYellowBoxAmountPictureBox);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PackagesAmount";
-            this.Size = new System.Drawing.Size(474, 56);
+            this.Size = new System.Drawing.Size(356, 46);
             ((System.ComponentModel.ISupportInitialize)(this.BoxesAmountStatusPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.WhiteBoxAmountPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MagneticAndBlueBoxAmountPictureBox)).EndInit();

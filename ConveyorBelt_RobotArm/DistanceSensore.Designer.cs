@@ -90,80 +90,89 @@
             this.SensorePanel.Controls.Add(this.DistanceLabel);
             this.SensorePanel.Controls.Add(this.SensoreTitleLabel);
             this.SensorePanel.Controls.Add(this.SensoreSliderPanel);
-            this.SensorePanel.Location = new System.Drawing.Point(3, 3);
+            this.SensorePanel.Location = new System.Drawing.Point(2, 2);
+            this.SensorePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SensorePanel.Name = "SensorePanel";
-            this.SensorePanel.Size = new System.Drawing.Size(394, 395);
+            this.SensorePanel.Size = new System.Drawing.Size(296, 321);
             this.SensorePanel.TabIndex = 10;
             // 
             // StartRedSabel
             // 
             this.StartRedSabel.AutoSize = true;
-            this.StartRedSabel.Location = new System.Drawing.Point(361, 300);
+            this.StartRedSabel.Location = new System.Drawing.Point(271, 244);
+            this.StartRedSabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.StartRedSabel.Name = "StartRedSabel";
-            this.StartRedSabel.Size = new System.Drawing.Size(25, 16);
+            this.StartRedSabel.Size = new System.Drawing.Size(24, 13);
             this.StartRedSabel.TabIndex = 32;
             this.StartRedSabel.Text = "1/6";
             // 
             // StartYellowLabel
             // 
             this.StartYellowLabel.AutoSize = true;
-            this.StartYellowLabel.Location = new System.Drawing.Point(361, 220);
+            this.StartYellowLabel.Location = new System.Drawing.Point(271, 179);
+            this.StartYellowLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.StartYellowLabel.Name = "StartYellowLabel";
-            this.StartYellowLabel.Size = new System.Drawing.Size(25, 16);
+            this.StartYellowLabel.Size = new System.Drawing.Size(24, 13);
             this.StartYellowLabel.TabIndex = 31;
             this.StartYellowLabel.Text = "3/6";
             // 
             // StartGreenLabel
             // 
             this.StartGreenLabel.AutoSize = true;
-            this.StartGreenLabel.Location = new System.Drawing.Point(361, 116);
+            this.StartGreenLabel.Location = new System.Drawing.Point(271, 94);
+            this.StartGreenLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.StartGreenLabel.Name = "StartGreenLabel";
-            this.StartGreenLabel.Size = new System.Drawing.Size(25, 16);
+            this.StartGreenLabel.Size = new System.Drawing.Size(24, 13);
             this.StartGreenLabel.TabIndex = 30;
             this.StartGreenLabel.Text = "6/6";
             // 
             // CurrentMinValueInfoLabel
             // 
             this.CurrentMinValueInfoLabel.AutoSize = true;
-            this.CurrentMinValueInfoLabel.Location = new System.Drawing.Point(188, 375);
+            this.CurrentMinValueInfoLabel.Location = new System.Drawing.Point(141, 305);
+            this.CurrentMinValueInfoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CurrentMinValueInfoLabel.Name = "CurrentMinValueInfoLabel";
-            this.CurrentMinValueInfoLabel.Size = new System.Drawing.Size(16, 16);
+            this.CurrentMinValueInfoLabel.Size = new System.Drawing.Size(16, 13);
             this.CurrentMinValueInfoLabel.TabIndex = 29;
             this.CurrentMinValueInfoLabel.Text = "...";
             // 
             // CurrentMaxValueInfoLabel
             // 
             this.CurrentMaxValueInfoLabel.AutoSize = true;
-            this.CurrentMaxValueInfoLabel.Location = new System.Drawing.Point(62, 375);
+            this.CurrentMaxValueInfoLabel.Location = new System.Drawing.Point(46, 305);
+            this.CurrentMaxValueInfoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CurrentMaxValueInfoLabel.Name = "CurrentMaxValueInfoLabel";
-            this.CurrentMaxValueInfoLabel.Size = new System.Drawing.Size(16, 16);
+            this.CurrentMaxValueInfoLabel.Size = new System.Drawing.Size(16, 13);
             this.CurrentMaxValueInfoLabel.TabIndex = 28;
             this.CurrentMaxValueInfoLabel.Text = "...";
             // 
             // CurrentMinValueLable
             // 
             this.CurrentMinValueLable.AutoSize = true;
-            this.CurrentMinValueLable.Location = new System.Drawing.Point(140, 375);
+            this.CurrentMinValueLable.Location = new System.Drawing.Point(105, 305);
+            this.CurrentMinValueLable.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CurrentMinValueLable.Name = "CurrentMinValueLable";
-            this.CurrentMinValueLable.Size = new System.Drawing.Size(45, 16);
+            this.CurrentMinValueLable.Size = new System.Drawing.Size(37, 13);
             this.CurrentMinValueLable.TabIndex = 27;
             this.CurrentMinValueLable.Text = "Value:";
             // 
             // CurrentMaxValueLabel
             // 
             this.CurrentMaxValueLabel.AutoSize = true;
-            this.CurrentMaxValueLabel.Location = new System.Drawing.Point(11, 375);
+            this.CurrentMaxValueLabel.Location = new System.Drawing.Point(8, 305);
+            this.CurrentMaxValueLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CurrentMaxValueLabel.Name = "CurrentMaxValueLabel";
-            this.CurrentMaxValueLabel.Size = new System.Drawing.Size(45, 16);
+            this.CurrentMaxValueLabel.Size = new System.Drawing.Size(37, 13);
             this.CurrentMaxValueLabel.TabIndex = 26;
             this.CurrentMaxValueLabel.Text = "Value:";
             // 
             // ErrorLabel
             // 
             this.ErrorLabel.AutoSize = true;
-            this.ErrorLabel.Location = new System.Drawing.Point(251, 76);
+            this.ErrorLabel.Location = new System.Drawing.Point(188, 62);
+            this.ErrorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ErrorLabel.Name = "ErrorLabel";
-            this.ErrorLabel.Size = new System.Drawing.Size(16, 16);
+            this.ErrorLabel.Size = new System.Drawing.Size(16, 13);
             this.ErrorLabel.TabIndex = 25;
             this.ErrorLabel.Text = "...";
             this.ErrorLabel.Visible = false;
@@ -171,9 +180,10 @@
             // ErrorTitleLabel
             // 
             this.ErrorTitleLabel.AutoSize = true;
-            this.ErrorTitleLabel.Location = new System.Drawing.Point(251, 60);
+            this.ErrorTitleLabel.Location = new System.Drawing.Point(188, 49);
+            this.ErrorTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ErrorTitleLabel.Name = "ErrorTitleLabel";
-            this.ErrorTitleLabel.Size = new System.Drawing.Size(39, 16);
+            this.ErrorTitleLabel.Size = new System.Drawing.Size(32, 13);
             this.ErrorTitleLabel.TabIndex = 24;
             this.ErrorTitleLabel.Text = "Error:";
             this.ErrorTitleLabel.Visible = false;
@@ -186,16 +196,18 @@
             this.MinSensitivityPanel.Controls.Add(this.MinSensitivityLabel2);
             this.MinSensitivityPanel.Controls.Add(this.MaxSensitivityLabel2);
             this.MinSensitivityPanel.Controls.Add(this.MinRangeTextBoxLabel);
-            this.MinSensitivityPanel.Location = new System.Drawing.Point(138, 31);
+            this.MinSensitivityPanel.Location = new System.Drawing.Point(104, 25);
+            this.MinSensitivityPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MinSensitivityPanel.Name = "MinSensitivityPanel";
-            this.MinSensitivityPanel.Size = new System.Drawing.Size(107, 341);
+            this.MinSensitivityPanel.Size = new System.Drawing.Size(80, 277);
             this.MinSensitivityPanel.TabIndex = 21;
             // 
             // MinDomainUpDown
             // 
-            this.MinDomainUpDown.Location = new System.Drawing.Point(6, 37);
+            this.MinDomainUpDown.Location = new System.Drawing.Point(4, 30);
+            this.MinDomainUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MinDomainUpDown.Name = "MinDomainUpDown";
-            this.MinDomainUpDown.Size = new System.Drawing.Size(98, 22);
+            this.MinDomainUpDown.Size = new System.Drawing.Size(74, 20);
             this.MinDomainUpDown.TabIndex = 24;
             this.MinDomainUpDown.Text = "2";
             this.MinDomainUpDown.SelectedItemChanged += new System.EventHandler(this.MinDomainUpDown_SelectedItemChanged);
@@ -204,19 +216,21 @@
             // 
             this.MinOffsetTitleLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MinOffsetTitleLabel.AutoSize = true;
-            this.MinOffsetTitleLabel.Location = new System.Drawing.Point(3, 69);
+            this.MinOffsetTitleLabel.Location = new System.Drawing.Point(2, 56);
+            this.MinOffsetTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MinOffsetTitleLabel.Name = "MinOffsetTitleLabel";
-            this.MinOffsetTitleLabel.Size = new System.Drawing.Size(44, 16);
+            this.MinOffsetTitleLabel.Size = new System.Drawing.Size(38, 13);
             this.MinOffsetTitleLabel.TabIndex = 12;
             this.MinOffsetTitleLabel.Text = "Offset:";
             // 
             // MinOffsetTrackBar
             // 
             this.MinOffsetTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.MinOffsetTrackBar.Location = new System.Drawing.Point(6, 85);
+            this.MinOffsetTrackBar.Location = new System.Drawing.Point(4, 69);
+            this.MinOffsetTrackBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MinOffsetTrackBar.Name = "MinOffsetTrackBar";
             this.MinOffsetTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.MinOffsetTrackBar.Size = new System.Drawing.Size(56, 253);
+            this.MinOffsetTrackBar.Size = new System.Drawing.Size(45, 206);
             this.MinOffsetTrackBar.TabIndex = 13;
             this.MinOffsetTrackBar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MinOffsetTrackBar_MouseUp);
             // 
@@ -224,9 +238,10 @@
             // 
             this.MinSensitivityLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MinSensitivityLabel2.AutoSize = true;
-            this.MinSensitivityLabel2.Location = new System.Drawing.Point(68, 311);
+            this.MinSensitivityLabel2.Location = new System.Drawing.Point(51, 253);
+            this.MinSensitivityLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MinSensitivityLabel2.Name = "MinSensitivityLabel2";
-            this.MinSensitivityLabel2.Size = new System.Drawing.Size(28, 16);
+            this.MinSensitivityLabel2.Size = new System.Drawing.Size(25, 13);
             this.MinSensitivityLabel2.TabIndex = 23;
             this.MinSensitivityLabel2.Text = "- 2 -";
             this.MinSensitivityLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -235,9 +250,10 @@
             // 
             this.MaxSensitivityLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MaxSensitivityLabel2.AutoSize = true;
-            this.MaxSensitivityLabel2.Location = new System.Drawing.Point(62, 95);
+            this.MaxSensitivityLabel2.Location = new System.Drawing.Point(46, 77);
+            this.MaxSensitivityLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MaxSensitivityLabel2.Name = "MaxSensitivityLabel2";
-            this.MaxSensitivityLabel2.Size = new System.Drawing.Size(42, 16);
+            this.MaxSensitivityLabel2.Size = new System.Drawing.Size(37, 13);
             this.MaxSensitivityLabel2.TabIndex = 22;
             this.MaxSensitivityLabel2.Text = "- 400 -";
             this.MaxSensitivityLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -246,9 +262,10 @@
             // 
             this.MinRangeTextBoxLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MinRangeTextBoxLabel.AutoSize = true;
-            this.MinRangeTextBoxLabel.Location = new System.Drawing.Point(3, 10);
+            this.MinRangeTextBoxLabel.Location = new System.Drawing.Point(2, 8);
+            this.MinRangeTextBoxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MinRangeTextBoxLabel.Name = "MinRangeTextBoxLabel";
-            this.MinRangeTextBoxLabel.Size = new System.Drawing.Size(63, 16);
+            this.MinRangeTextBoxLabel.Size = new System.Drawing.Size(51, 13);
             this.MinRangeTextBoxLabel.TabIndex = 18;
             this.MinRangeTextBoxLabel.Text = "Minimum:";
             // 
@@ -260,16 +277,18 @@
             this.MaxSensitivityPanel.Controls.Add(this.MaxSensitivityLabel1);
             this.MaxSensitivityPanel.Controls.Add(this.MinSensitivityLabel1);
             this.MaxSensitivityPanel.Controls.Add(this.MaxRangeTextBoxLabel);
-            this.MaxSensitivityPanel.Location = new System.Drawing.Point(9, 31);
+            this.MaxSensitivityPanel.Location = new System.Drawing.Point(7, 25);
+            this.MaxSensitivityPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaxSensitivityPanel.Name = "MaxSensitivityPanel";
-            this.MaxSensitivityPanel.Size = new System.Drawing.Size(126, 341);
+            this.MaxSensitivityPanel.Size = new System.Drawing.Size(94, 277);
             this.MaxSensitivityPanel.TabIndex = 20;
             // 
             // MaxDomainUpDown
             // 
-            this.MaxDomainUpDown.Location = new System.Drawing.Point(6, 38);
+            this.MaxDomainUpDown.Location = new System.Drawing.Point(4, 31);
+            this.MaxDomainUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaxDomainUpDown.Name = "MaxDomainUpDown";
-            this.MaxDomainUpDown.Size = new System.Drawing.Size(98, 22);
+            this.MaxDomainUpDown.Size = new System.Drawing.Size(74, 20);
             this.MaxDomainUpDown.TabIndex = 18;
             this.MaxDomainUpDown.Text = "400";
             this.MaxDomainUpDown.SelectedItemChanged += new System.EventHandler(this.MaxDomainUpDown_SelectedItemChanged);
@@ -278,19 +297,21 @@
             // 
             this.MaxOffsetTitleLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MaxOffsetTitleLabel.AutoSize = true;
-            this.MaxOffsetTitleLabel.Location = new System.Drawing.Point(3, 69);
+            this.MaxOffsetTitleLabel.Location = new System.Drawing.Point(2, 56);
+            this.MaxOffsetTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MaxOffsetTitleLabel.Name = "MaxOffsetTitleLabel";
-            this.MaxOffsetTitleLabel.Size = new System.Drawing.Size(44, 16);
+            this.MaxOffsetTitleLabel.Size = new System.Drawing.Size(38, 13);
             this.MaxOffsetTitleLabel.TabIndex = 12;
             this.MaxOffsetTitleLabel.Text = "Offset:";
             // 
             // MaxOffsetTrackBar
             // 
             this.MaxOffsetTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.MaxOffsetTrackBar.Location = new System.Drawing.Point(6, 85);
+            this.MaxOffsetTrackBar.Location = new System.Drawing.Point(4, 69);
+            this.MaxOffsetTrackBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaxOffsetTrackBar.Name = "MaxOffsetTrackBar";
             this.MaxOffsetTrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.MaxOffsetTrackBar.Size = new System.Drawing.Size(56, 253);
+            this.MaxOffsetTrackBar.Size = new System.Drawing.Size(45, 206);
             this.MaxOffsetTrackBar.TabIndex = 13;
             this.MaxOffsetTrackBar.Value = 10;
             this.MaxOffsetTrackBar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MaxOffsetTrackBar_MouseUp);
@@ -299,9 +320,10 @@
             // 
             this.MaxSensitivityLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MaxSensitivityLabel1.AutoSize = true;
-            this.MaxSensitivityLabel1.Location = new System.Drawing.Point(81, 95);
+            this.MaxSensitivityLabel1.Location = new System.Drawing.Point(61, 77);
+            this.MaxSensitivityLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MaxSensitivityLabel1.Name = "MaxSensitivityLabel1";
-            this.MaxSensitivityLabel1.Size = new System.Drawing.Size(42, 16);
+            this.MaxSensitivityLabel1.Size = new System.Drawing.Size(37, 13);
             this.MaxSensitivityLabel1.TabIndex = 14;
             this.MaxSensitivityLabel1.Text = "- 400 -";
             this.MaxSensitivityLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -310,9 +332,10 @@
             // 
             this.MinSensitivityLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MinSensitivityLabel1.AutoSize = true;
-            this.MinSensitivityLabel1.Location = new System.Drawing.Point(81, 311);
+            this.MinSensitivityLabel1.Location = new System.Drawing.Point(61, 253);
+            this.MinSensitivityLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MinSensitivityLabel1.Name = "MinSensitivityLabel1";
-            this.MinSensitivityLabel1.Size = new System.Drawing.Size(28, 16);
+            this.MinSensitivityLabel1.Size = new System.Drawing.Size(25, 13);
             this.MinSensitivityLabel1.TabIndex = 15;
             this.MinSensitivityLabel1.Text = "- 2 -";
             this.MinSensitivityLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -321,36 +344,40 @@
             // 
             this.MaxRangeTextBoxLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.MaxRangeTextBoxLabel.AutoSize = true;
-            this.MaxRangeTextBoxLabel.Location = new System.Drawing.Point(3, 10);
+            this.MaxRangeTextBoxLabel.Location = new System.Drawing.Point(2, 8);
+            this.MaxRangeTextBoxLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MaxRangeTextBoxLabel.Name = "MaxRangeTextBoxLabel";
-            this.MaxRangeTextBoxLabel.Size = new System.Drawing.Size(67, 16);
+            this.MaxRangeTextBoxLabel.Size = new System.Drawing.Size(54, 13);
             this.MaxRangeTextBoxLabel.TabIndex = 17;
             this.MaxRangeTextBoxLabel.Text = "Maximum:";
             // 
             // DistanceInfoLabel
             // 
             this.DistanceInfoLabel.AutoSize = true;
-            this.DistanceInfoLabel.Location = new System.Drawing.Point(313, 38);
+            this.DistanceInfoLabel.Location = new System.Drawing.Point(235, 31);
+            this.DistanceInfoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DistanceInfoLabel.Name = "DistanceInfoLabel";
-            this.DistanceInfoLabel.Size = new System.Drawing.Size(16, 16);
+            this.DistanceInfoLabel.Size = new System.Drawing.Size(16, 13);
             this.DistanceInfoLabel.TabIndex = 11;
             this.DistanceInfoLabel.Text = "...";
             // 
             // DistanceLabel
             // 
             this.DistanceLabel.AutoSize = true;
-            this.DistanceLabel.Location = new System.Drawing.Point(251, 38);
+            this.DistanceLabel.Location = new System.Drawing.Point(188, 31);
+            this.DistanceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DistanceLabel.Name = "DistanceLabel";
-            this.DistanceLabel.Size = new System.Drawing.Size(66, 16);
+            this.DistanceLabel.Size = new System.Drawing.Size(55, 13);
             this.DistanceLabel.TabIndex = 10;
             this.DistanceLabel.Text = "Distance: ";
             // 
             // SensoreTitleLabel
             // 
             this.SensoreTitleLabel.AutoSize = true;
-            this.SensoreTitleLabel.Location = new System.Drawing.Point(178, 9);
+            this.SensoreTitleLabel.Location = new System.Drawing.Point(134, 7);
+            this.SensoreTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SensoreTitleLabel.Name = "SensoreTitleLabel";
-            this.SensoreTitleLabel.Size = new System.Drawing.Size(67, 16);
+            this.SensoreTitleLabel.Size = new System.Drawing.Size(55, 13);
             this.SensoreTitleLabel.TabIndex = 9;
             this.SensoreTitleLabel.Text = "Sensore...";
             this.SensoreTitleLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -361,17 +388,19 @@
             this.SensoreSliderPanel.Controls.Add(this.YellowPictureBox);
             this.SensoreSliderPanel.Controls.Add(this.GreenPictureBox);
             this.SensoreSliderPanel.Controls.Add(this.RedPictureBox);
-            this.SensoreSliderPanel.Location = new System.Drawing.Point(251, 116);
+            this.SensoreSliderPanel.Location = new System.Drawing.Point(188, 94);
+            this.SensoreSliderPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SensoreSliderPanel.Name = "SensoreSliderPanel";
-            this.SensoreSliderPanel.Size = new System.Drawing.Size(104, 260);
+            this.SensoreSliderPanel.Size = new System.Drawing.Size(78, 211);
             this.SensoreSliderPanel.TabIndex = 8;
             // 
             // DistanceIndecatorPictureBox
             // 
             this.DistanceIndecatorPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.slider;
             this.DistanceIndecatorPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.DistanceIndecatorPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DistanceIndecatorPictureBox.Name = "DistanceIndecatorPictureBox";
-            this.DistanceIndecatorPictureBox.Size = new System.Drawing.Size(104, 20);
+            this.DistanceIndecatorPictureBox.Size = new System.Drawing.Size(78, 16);
             this.DistanceIndecatorPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DistanceIndecatorPictureBox.TabIndex = 3;
             this.DistanceIndecatorPictureBox.TabStop = false;
@@ -380,9 +409,10 @@
             // 
             this.YellowPictureBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.YellowPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.yellow;
-            this.YellowPictureBox.Location = new System.Drawing.Point(26, 120);
+            this.YellowPictureBox.Location = new System.Drawing.Point(20, 98);
+            this.YellowPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.YellowPictureBox.Name = "YellowPictureBox";
-            this.YellowPictureBox.Size = new System.Drawing.Size(52, 80);
+            this.YellowPictureBox.Size = new System.Drawing.Size(39, 65);
             this.YellowPictureBox.TabIndex = 2;
             this.YellowPictureBox.TabStop = false;
             // 
@@ -391,9 +421,10 @@
             this.GreenPictureBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GreenPictureBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("GreenPictureBox.BackgroundImage")));
             this.GreenPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.green;
-            this.GreenPictureBox.Location = new System.Drawing.Point(26, 0);
+            this.GreenPictureBox.Location = new System.Drawing.Point(20, 0);
+            this.GreenPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GreenPictureBox.Name = "GreenPictureBox";
-            this.GreenPictureBox.Size = new System.Drawing.Size(52, 120);
+            this.GreenPictureBox.Size = new System.Drawing.Size(39, 98);
             this.GreenPictureBox.TabIndex = 1;
             this.GreenPictureBox.TabStop = false;
             // 
@@ -401,19 +432,22 @@
             // 
             this.RedPictureBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.RedPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.red;
-            this.RedPictureBox.Location = new System.Drawing.Point(26, 200);
+            this.RedPictureBox.Location = new System.Drawing.Point(20, 162);
+            this.RedPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RedPictureBox.Name = "RedPictureBox";
-            this.RedPictureBox.Size = new System.Drawing.Size(52, 40);
+            this.RedPictureBox.Size = new System.Drawing.Size(39, 32);
             this.RedPictureBox.TabIndex = 0;
             this.RedPictureBox.TabStop = false;
             // 
             // DistanceSensore
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.SensorePanel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DistanceSensore";
-            this.Size = new System.Drawing.Size(400, 410);
+            this.Size = new System.Drawing.Size(300, 333);
             this.SensorePanel.ResumeLayout(false);
             this.SensorePanel.PerformLayout();
             this.MinSensitivityPanel.ResumeLayout(false);

@@ -12,9 +12,24 @@ namespace ConveyorBelt_RobotArm
 {
     public partial class Form1 : Form
     {
+        List<Panel> PanelsControls = new List<Panel>();
+        
         public Form1()
         {
             InitializeComponent();
+
+            CreateControls();
+        }
+
+        private void CreateControls()
+        {
+            RobotArmPanel.Controls.Add(new RobotArm());
+            DistanceSensoresPanel.Controls.Add(new DistanceSensore());
+            ProgramStatesPanel.Controls.Add(new ProgramStates());
+            SerialConsolePanel.Controls.Add(new SerialConsole());
+            PackagesAmountsPanel.Controls.Add(new PackagesAmount());
         }
     }
+
+   
 }
