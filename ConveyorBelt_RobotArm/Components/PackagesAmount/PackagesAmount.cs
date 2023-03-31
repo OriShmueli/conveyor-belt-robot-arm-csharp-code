@@ -14,8 +14,6 @@ namespace ConveyorBelt_RobotArm
 {
     public partial class PackagesAmount : UserControl
     {
-        
-
         public PackagesAmount()
         {
             InitializeComponent();
