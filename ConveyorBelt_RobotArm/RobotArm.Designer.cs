@@ -38,7 +38,7 @@
             this.EndPlusPictureBox = new System.Windows.Forms.PictureBox();
             this.StartMinusPictureBox = new System.Windows.Forms.PictureBox();
             this.StartPlusPictureBox = new System.Windows.Forms.PictureBox();
-            this.StartSensoreLabel = new System.Windows.Forms.Label();
+            this.StartDistancSensoreLabel = new System.Windows.Forms.Label();
             this.SensorePictureBox = new System.Windows.Forms.PictureBox();
             this.StartPart1Piece1Panel = new System.Windows.Forms.Panel();
             this.StartPanel = new System.Windows.Forms.Panel();
@@ -229,7 +229,7 @@
             this.RobotArmWorkFlowPanel.Controls.Add(this.EndPlusPictureBox);
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartMinusPictureBox);
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartPlusPictureBox);
-            this.RobotArmWorkFlowPanel.Controls.Add(this.StartSensoreLabel);
+            this.RobotArmWorkFlowPanel.Controls.Add(this.StartDistancSensoreLabel);
             this.RobotArmWorkFlowPanel.Controls.Add(this.SensorePictureBox);
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartPart1Piece1Panel);
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartPanel);
@@ -274,16 +274,16 @@
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartPart2Piece1Panel);
             this.RobotArmWorkFlowPanel.Controls.Add(this.StartPart1Piece2PictureBox);
             this.RobotArmWorkFlowPanel.Controls.Add(this.EndPiece3Panel);
-            this.RobotArmWorkFlowPanel.Location = new System.Drawing.Point(610, 39);
+            this.RobotArmWorkFlowPanel.Location = new System.Drawing.Point(550, 39);
             this.RobotArmWorkFlowPanel.Name = "RobotArmWorkFlowPanel";
-            this.RobotArmWorkFlowPanel.Size = new System.Drawing.Size(1264, 422);
+            this.RobotArmWorkFlowPanel.Size = new System.Drawing.Size(1427, 422);
             this.RobotArmWorkFlowPanel.TabIndex = 9;
             // 
             // EndMinusPictureBox
             // 
             this.EndMinusPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.EndMinusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.minus_off;
-            this.EndMinusPictureBox.Location = new System.Drawing.Point(1077, 258);
+            this.EndMinusPictureBox.Location = new System.Drawing.Point(1208, 258);
             this.EndMinusPictureBox.Name = "EndMinusPictureBox";
             this.EndMinusPictureBox.Size = new System.Drawing.Size(40, 40);
             this.EndMinusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -294,7 +294,7 @@
             // 
             this.EndPlusPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.EndPlusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.plus_off;
-            this.EndPlusPictureBox.Location = new System.Drawing.Point(1077, 137);
+            this.EndPlusPictureBox.Location = new System.Drawing.Point(1208, 137);
             this.EndPlusPictureBox.Name = "EndPlusPictureBox";
             this.EndPlusPictureBox.Size = new System.Drawing.Size(40, 40);
             this.EndPlusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -305,7 +305,7 @@
             // 
             this.StartMinusPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.StartMinusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.minus_off;
-            this.StartMinusPictureBox.Location = new System.Drawing.Point(567, 259);
+            this.StartMinusPictureBox.Location = new System.Drawing.Point(698, 259);
             this.StartMinusPictureBox.Name = "StartMinusPictureBox";
             this.StartMinusPictureBox.Size = new System.Drawing.Size(40, 40);
             this.StartMinusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -316,28 +316,25 @@
             // 
             this.StartPlusPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.StartPlusPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.plus_off;
-            this.StartPlusPictureBox.Location = new System.Drawing.Point(567, 137);
+            this.StartPlusPictureBox.Location = new System.Drawing.Point(698, 137);
             this.StartPlusPictureBox.Name = "StartPlusPictureBox";
             this.StartPlusPictureBox.Size = new System.Drawing.Size(40, 40);
             this.StartPlusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.StartPlusPictureBox.TabIndex = 36;
             this.StartPlusPictureBox.TabStop = false;
             // 
-            // StartSensoreLabel
+            // StartDistancSensoreLabel
             // 
-            this.StartSensoreLabel.AutoSize = true;
-            this.StartSensoreLabel.BackColor = System.Drawing.Color.Transparent;
-            this.StartSensoreLabel.Location = new System.Drawing.Point(137, 164);
-            this.StartSensoreLabel.Name = "StartSensoreLabel";
-            this.StartSensoreLabel.Size = new System.Drawing.Size(58, 16);
-            this.StartSensoreLabel.TabIndex = 35;
-            this.StartSensoreLabel.Text = "Sensore";
+            this.StartDistancSensoreLabel.AutoSize = true;
+            this.StartDistancSensoreLabel.BackColor = System.Drawing.Color.Transparent;
+            this.StartDistancSensoreLabel.Location = new System.Drawing.Point(137, 164);
+            this.StartDistancSensoreLabel.Name = "StartDistancSensoreLabel";
+            this.StartDistancSensoreLabel.Size = new System.Drawing.Size(58, 16);
+            this.StartDistancSensoreLabel.TabIndex = 35;
+            this.StartDistancSensoreLabel.Text = "Sensore";
             // 
             // SensorePictureBox
             // 
-            this.SensorePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.SensorePictureBox.BackColor = System.Drawing.Color.Transparent;
             this.SensorePictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.sensore_icon;
             this.SensorePictureBox.Location = new System.Drawing.Point(130, 183);
@@ -378,7 +375,7 @@
             // 
             this.EndPanel.BackColor = System.Drawing.Color.White;
             this.EndPanel.Controls.Add(this.EndLabel);
-            this.EndPanel.Location = new System.Drawing.Point(1210, 193);
+            this.EndPanel.Location = new System.Drawing.Point(1341, 193);
             this.EndPanel.Name = "EndPanel";
             this.EndPanel.Size = new System.Drawing.Size(50, 50);
             this.EndPanel.TabIndex = 31;
@@ -398,7 +395,7 @@
             this.PickUpBoxGroupBox.Controls.Add(this.StartPart3Piece2PictureBox);
             this.PickUpBoxGroupBox.Controls.Add(this.StartPart3Piece1Panel);
             this.PickUpBoxGroupBox.Controls.Add(this.StartStage1Button);
-            this.PickUpBoxGroupBox.Location = new System.Drawing.Point(264, 171);
+            this.PickUpBoxGroupBox.Location = new System.Drawing.Point(395, 171);
             this.PickUpBoxGroupBox.Name = "PickUpBoxGroupBox";
             this.PickUpBoxGroupBox.Size = new System.Drawing.Size(252, 82);
             this.PickUpBoxGroupBox.TabIndex = 13;
@@ -456,9 +453,6 @@
             // 
             // OnOffPictureBox
             // 
-            this.OnOffPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.OnOffPictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.turn_off_icon;
             this.OnOffPictureBox.Location = new System.Drawing.Point(2, 5);
             this.OnOffPictureBox.Name = "OnOffPictureBox";
@@ -481,7 +475,7 @@
             // OffPiece2Panel
             // 
             this.OffPiece2Panel.BackColor = System.Drawing.Color.Black;
-            this.OffPiece2Panel.Location = new System.Drawing.Point(88, 20);
+            this.OffPiece2Panel.Location = new System.Drawing.Point(219, 20);
             this.OffPiece2Panel.Margin = new System.Windows.Forms.Padding(0);
             this.OffPiece2Panel.Name = "OffPiece2Panel";
             this.OffPiece2Panel.Size = new System.Drawing.Size(1138, 20);
@@ -490,7 +484,7 @@
             // EndPiece2Panel
             // 
             this.EndPiece2Panel.BackColor = System.Drawing.Color.Black;
-            this.EndPiece2Panel.Location = new System.Drawing.Point(1226, 228);
+            this.EndPiece2Panel.Location = new System.Drawing.Point(1357, 228);
             this.EndPiece2Panel.Name = "EndPiece2Panel";
             this.EndPiece2Panel.Size = new System.Drawing.Size(20, 187);
             this.EndPiece2Panel.TabIndex = 7;
@@ -498,7 +492,7 @@
             // EndPointDegreesLabel
             // 
             this.EndPointDegreesLabel.AutoSize = true;
-            this.EndPointDegreesLabel.Location = new System.Drawing.Point(1142, 208);
+            this.EndPointDegreesLabel.Location = new System.Drawing.Point(1273, 208);
             this.EndPointDegreesLabel.Name = "EndPointDegreesLabel";
             this.EndPointDegreesLabel.Size = new System.Drawing.Size(16, 16);
             this.EndPointDegreesLabel.TabIndex = 11;
@@ -508,7 +502,7 @@
             // 
             this.EndHollowCirclePictureBox.BackColor = System.Drawing.Color.Transparent;
             this.EndHollowCirclePictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.degrees_pattern_transparent;
-            this.EndHollowCirclePictureBox.Location = new System.Drawing.Point(1113, 182);
+            this.EndHollowCirclePictureBox.Location = new System.Drawing.Point(1244, 182);
             this.EndHollowCirclePictureBox.Name = "EndHollowCirclePictureBox";
             this.EndHollowCirclePictureBox.Size = new System.Drawing.Size(70, 70);
             this.EndHollowCirclePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -518,7 +512,7 @@
             // Path2Part3Piece2Panel
             // 
             this.Path2Part3Piece2Panel.BackColor = System.Drawing.Color.Black;
-            this.Path2Part3Piece2Panel.Location = new System.Drawing.Point(1138, 292);
+            this.Path2Part3Piece2Panel.Location = new System.Drawing.Point(1269, 292);
             this.Path2Part3Piece2Panel.Name = "Path2Part3Piece2Panel";
             this.Path2Part3Piece2Panel.Size = new System.Drawing.Size(20, 46);
             this.Path2Part3Piece2Panel.TabIndex = 14;
@@ -526,7 +520,7 @@
             // Path1Part3Piece2Panel
             // 
             this.Path1Part3Piece2Panel.BackColor = System.Drawing.Color.Black;
-            this.Path1Part3Piece2Panel.Location = new System.Drawing.Point(1138, 97);
+            this.Path1Part3Piece2Panel.Location = new System.Drawing.Point(1269, 97);
             this.Path1Part3Piece2Panel.Name = "Path1Part3Piece2Panel";
             this.Path1Part3Piece2Panel.Size = new System.Drawing.Size(20, 44);
             this.Path1Part3Piece2Panel.TabIndex = 5;
@@ -534,7 +528,7 @@
             // Path3Part3Piece1Panel
             // 
             this.Path3Part3Piece1Panel.BackColor = System.Drawing.Color.Black;
-            this.Path3Part3Piece1Panel.Location = new System.Drawing.Point(1006, 318);
+            this.Path3Part3Piece1Panel.Location = new System.Drawing.Point(1137, 318);
             this.Path3Part3Piece1Panel.Margin = new System.Windows.Forms.Padding(0);
             this.Path3Part3Piece1Panel.Name = "Path3Part3Piece1Panel";
             this.Path3Part3Piece1Panel.Size = new System.Drawing.Size(134, 20);
@@ -546,7 +540,7 @@
             this.WhiteGroupBox.Controls.Add(this.Path3Part2Piece2PictureBox);
             this.WhiteGroupBox.Controls.Add(this.Path3Part2Piece1Panel);
             this.WhiteGroupBox.Controls.Add(this.Path3Stage1Button);
-            this.WhiteGroupBox.Location = new System.Drawing.Point(754, 280);
+            this.WhiteGroupBox.Location = new System.Drawing.Point(885, 280);
             this.WhiteGroupBox.Name = "WhiteGroupBox";
             this.WhiteGroupBox.Size = new System.Drawing.Size(252, 82);
             this.WhiteGroupBox.TabIndex = 20;
@@ -595,7 +589,7 @@
             // 
             this.Path3Part1Piece3PictureBox.BackColor = System.Drawing.Color.Transparent;
             this.Path3Part1Piece3PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Path3Part1Piece3PictureBox.Image")));
-            this.Path3Part1Piece3PictureBox.Location = new System.Drawing.Point(711, 303);
+            this.Path3Part1Piece3PictureBox.Location = new System.Drawing.Point(842, 303);
             this.Path3Part1Piece3PictureBox.Name = "Path3Part1Piece3PictureBox";
             this.Path3Part1Piece3PictureBox.Size = new System.Drawing.Size(50, 50);
             this.Path3Part1Piece3PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -606,7 +600,7 @@
             // 
             this.Path2Part3Piece2PictureBox.BackColor = System.Drawing.Color.Transparent;
             this.Path2Part3Piece2PictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.black_triangle222;
-            this.Path2Part3Piece2PictureBox.Location = new System.Drawing.Point(1071, 193);
+            this.Path2Part3Piece2PictureBox.Location = new System.Drawing.Point(1202, 193);
             this.Path2Part3Piece2PictureBox.Name = "Path2Part3Piece2PictureBox";
             this.Path2Part3Piece2PictureBox.Size = new System.Drawing.Size(50, 50);
             this.Path2Part3Piece2PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -616,7 +610,7 @@
             // Path3Part1Piece2Panel
             // 
             this.Path3Part1Piece2Panel.BackColor = System.Drawing.Color.Black;
-            this.Path3Part1Piece2Panel.Location = new System.Drawing.Point(632, 318);
+            this.Path3Part1Piece2Panel.Location = new System.Drawing.Point(763, 318);
             this.Path3Part1Piece2Panel.Margin = new System.Windows.Forms.Padding(0);
             this.Path3Part1Piece2Panel.Name = "Path3Part1Piece2Panel";
             this.Path3Part1Piece2Panel.Size = new System.Drawing.Size(80, 20);
@@ -625,7 +619,7 @@
             // Path2Part3Piece1Panel
             // 
             this.Path2Part3Piece1Panel.BackColor = System.Drawing.Color.Black;
-            this.Path2Part3Piece1Panel.Location = new System.Drawing.Point(1007, 208);
+            this.Path2Part3Piece1Panel.Location = new System.Drawing.Point(1138, 208);
             this.Path2Part3Piece1Panel.Margin = new System.Windows.Forms.Padding(0);
             this.Path2Part3Piece1Panel.Name = "Path2Part3Piece1Panel";
             this.Path2Part3Piece1Panel.Size = new System.Drawing.Size(69, 20);
@@ -634,7 +628,7 @@
             // Path3Part1Piece1Panel
             // 
             this.Path3Part1Piece1Panel.BackColor = System.Drawing.Color.Black;
-            this.Path3Part1Piece1Panel.Location = new System.Drawing.Point(613, 252);
+            this.Path3Part1Piece1Panel.Location = new System.Drawing.Point(744, 252);
             this.Path3Part1Piece1Panel.Name = "Path3Part1Piece1Panel";
             this.Path3Part1Piece1Panel.Size = new System.Drawing.Size(20, 86);
             this.Path3Part1Piece1Panel.TabIndex = 15;
@@ -643,7 +637,7 @@
             // 
             this.Path3Part3Piece3PictureBox.BackColor = System.Drawing.Color.Transparent;
             this.Path3Part3Piece3PictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.black_arrow_up;
-            this.Path3Part3Piece3PictureBox.Location = new System.Drawing.Point(1123, 243);
+            this.Path3Part3Piece3PictureBox.Location = new System.Drawing.Point(1254, 243);
             this.Path3Part3Piece3PictureBox.Name = "Path3Part3Piece3PictureBox";
             this.Path3Part3Piece3PictureBox.Size = new System.Drawing.Size(50, 50);
             this.Path3Part3Piece3PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -657,7 +651,7 @@
             this.MagneticAndBlueGroupBox.Controls.Add(this.Path2Part2Piece2PictureBox);
             this.MagneticAndBlueGroupBox.Controls.Add(this.Path2Part2Piece1Panel);
             this.MagneticAndBlueGroupBox.Controls.Add(this.Path2Stage1Button);
-            this.MagneticAndBlueGroupBox.Location = new System.Drawing.Point(755, 170);
+            this.MagneticAndBlueGroupBox.Location = new System.Drawing.Point(886, 170);
             this.MagneticAndBlueGroupBox.Name = "MagneticAndBlueGroupBox";
             this.MagneticAndBlueGroupBox.Size = new System.Drawing.Size(252, 82);
             this.MagneticAndBlueGroupBox.TabIndex = 12;
@@ -706,7 +700,7 @@
             // 
             this.Path2Part1Piece2PictureBox.BackColor = System.Drawing.Color.Transparent;
             this.Path2Part1Piece2PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Path2Part1Piece2PictureBox.Image")));
-            this.Path2Part1Piece2PictureBox.Location = new System.Drawing.Point(712, 193);
+            this.Path2Part1Piece2PictureBox.Location = new System.Drawing.Point(843, 193);
             this.Path2Part1Piece2PictureBox.Name = "Path2Part1Piece2PictureBox";
             this.Path2Part1Piece2PictureBox.Size = new System.Drawing.Size(50, 50);
             this.Path2Part1Piece2PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -716,7 +710,7 @@
             // Path2Part1Piece1Panel
             // 
             this.Path2Part1Piece1Panel.BackColor = System.Drawing.Color.Black;
-            this.Path2Part1Piece1Panel.Location = new System.Drawing.Point(657, 208);
+            this.Path2Part1Piece1Panel.Location = new System.Drawing.Point(788, 208);
             this.Path2Part1Piece1Panel.Margin = new System.Windows.Forms.Padding(0);
             this.Path2Part1Piece1Panel.Name = "Path2Part1Piece1Panel";
             this.Path2Part1Piece1Panel.Size = new System.Drawing.Size(55, 20);
@@ -729,7 +723,7 @@
             this.BalckAndYellowGroupBox.Controls.Add(this.Path1Part2Piece2PictureBox);
             this.BalckAndYellowGroupBox.Controls.Add(this.Path1Part2Piece1Panel);
             this.BalckAndYellowGroupBox.Controls.Add(this.Path1Stage1Button);
-            this.BalckAndYellowGroupBox.Location = new System.Drawing.Point(754, 59);
+            this.BalckAndYellowGroupBox.Location = new System.Drawing.Point(885, 59);
             this.BalckAndYellowGroupBox.Name = "BalckAndYellowGroupBox";
             this.BalckAndYellowGroupBox.Size = new System.Drawing.Size(252, 82);
             this.BalckAndYellowGroupBox.TabIndex = 8;
@@ -778,7 +772,7 @@
             // 
             this.Path1Part1Piece3PictureBox.BackColor = System.Drawing.Color.Transparent;
             this.Path1Part1Piece3PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Path1Part1Piece3PictureBox.Image")));
-            this.Path1Part1Piece3PictureBox.Location = new System.Drawing.Point(711, 82);
+            this.Path1Part1Piece3PictureBox.Location = new System.Drawing.Point(842, 82);
             this.Path1Part1Piece3PictureBox.Name = "Path1Part1Piece3PictureBox";
             this.Path1Part1Piece3PictureBox.Size = new System.Drawing.Size(50, 50);
             this.Path1Part1Piece3PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -788,7 +782,7 @@
             // Path1Part1Piece1Panel
             // 
             this.Path1Part1Piece1Panel.BackColor = System.Drawing.Color.Black;
-            this.Path1Part1Piece1Panel.Location = new System.Drawing.Point(613, 97);
+            this.Path1Part1Piece1Panel.Location = new System.Drawing.Point(744, 97);
             this.Path1Part1Piece1Panel.Name = "Path1Part1Piece1Panel";
             this.Path1Part1Piece1Panel.Size = new System.Drawing.Size(20, 86);
             this.Path1Part1Piece1Panel.TabIndex = 4;
@@ -796,7 +790,7 @@
             // StartPointDegreesLabel
             // 
             this.StartPointDegreesLabel.AutoSize = true;
-            this.StartPointDegreesLabel.Location = new System.Drawing.Point(614, 209);
+            this.StartPointDegreesLabel.Location = new System.Drawing.Point(745, 209);
             this.StartPointDegreesLabel.Name = "StartPointDegreesLabel";
             this.StartPointDegreesLabel.Size = new System.Drawing.Size(16, 16);
             this.StartPointDegreesLabel.TabIndex = 2;
@@ -804,12 +798,9 @@
             // 
             // StartHollowCirclePictureBox
             // 
-            this.StartHollowCirclePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.StartHollowCirclePictureBox.BackColor = System.Drawing.Color.Transparent;
             this.StartHollowCirclePictureBox.Image = global::ConveyorBelt_RobotArm.Properties.Resources.degrees_pattern_transparent;
-            this.StartHollowCirclePictureBox.Location = new System.Drawing.Point(587, 183);
+            this.StartHollowCirclePictureBox.Location = new System.Drawing.Point(718, 183);
             this.StartHollowCirclePictureBox.Name = "StartHollowCirclePictureBox";
             this.StartHollowCirclePictureBox.Size = new System.Drawing.Size(70, 70);
             this.StartHollowCirclePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -820,7 +811,7 @@
             // 
             this.Path1Part3Piece3PictureBox.BackColor = System.Drawing.Color.Transparent;
             this.Path1Part3Piece3PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Path1Part3Piece3PictureBox.Image")));
-            this.Path1Part3Piece3PictureBox.Location = new System.Drawing.Point(1123, 140);
+            this.Path1Part3Piece3PictureBox.Location = new System.Drawing.Point(1254, 140);
             this.Path1Part3Piece3PictureBox.Name = "Path1Part3Piece3PictureBox";
             this.Path1Part3Piece3PictureBox.Size = new System.Drawing.Size(50, 50);
             this.Path1Part3Piece3PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -831,7 +822,7 @@
             // 
             this.EndPiece1Panel.BackColor = System.Drawing.Color.Black;
             this.EndPiece1Panel.ForeColor = System.Drawing.Color.Black;
-            this.EndPiece1Panel.Location = new System.Drawing.Point(1177, 208);
+            this.EndPiece1Panel.Location = new System.Drawing.Point(1308, 208);
             this.EndPiece1Panel.Name = "EndPiece1Panel";
             this.EndPiece1Panel.Size = new System.Drawing.Size(69, 20);
             this.EndPiece1Panel.TabIndex = 3;
@@ -840,7 +831,7 @@
             // 
             this.StartPart4Piece2PictureBox.BackColor = System.Drawing.Color.Transparent;
             this.StartPart4Piece2PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("StartPart4Piece2PictureBox.Image")));
-            this.StartPart4Piece2PictureBox.Location = new System.Drawing.Point(546, 193);
+            this.StartPart4Piece2PictureBox.Location = new System.Drawing.Point(677, 193);
             this.StartPart4Piece2PictureBox.Name = "StartPart4Piece2PictureBox";
             this.StartPart4Piece2PictureBox.Size = new System.Drawing.Size(50, 50);
             this.StartPart4Piece2PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -851,7 +842,7 @@
             // 
             this.StartPart4Piece1Panel.BackColor = System.Drawing.Color.Black;
             this.StartPart4Piece1Panel.ForeColor = System.Drawing.Color.Black;
-            this.StartPart4Piece1Panel.Location = new System.Drawing.Point(513, 208);
+            this.StartPart4Piece1Panel.Location = new System.Drawing.Point(644, 208);
             this.StartPart4Piece1Panel.Name = "StartPart4Piece1Panel";
             this.StartPart4Piece1Panel.Size = new System.Drawing.Size(48, 20);
             this.StartPart4Piece1Panel.TabIndex = 0;
@@ -878,7 +869,7 @@
             // Path1Part1Piece2Panel
             // 
             this.Path1Part1Piece2Panel.BackColor = System.Drawing.Color.Black;
-            this.Path1Part1Piece2Panel.Location = new System.Drawing.Point(632, 97);
+            this.Path1Part1Piece2Panel.Location = new System.Drawing.Point(763, 97);
             this.Path1Part1Piece2Panel.Margin = new System.Windows.Forms.Padding(0);
             this.Path1Part1Piece2Panel.Name = "Path1Part1Piece2Panel";
             this.Path1Part1Piece2Panel.Size = new System.Drawing.Size(80, 20);
@@ -887,7 +878,7 @@
             // Path1Part3Piece1Panel
             // 
             this.Path1Part3Piece1Panel.BackColor = System.Drawing.Color.Black;
-            this.Path1Part3Piece1Panel.Location = new System.Drawing.Point(1006, 97);
+            this.Path1Part3Piece1Panel.Location = new System.Drawing.Point(1137, 97);
             this.Path1Part3Piece1Panel.Margin = new System.Windows.Forms.Padding(0);
             this.Path1Part3Piece1Panel.Name = "Path1Part3Piece1Panel";
             this.Path1Part3Piece1Panel.Size = new System.Drawing.Size(134, 20);
@@ -896,7 +887,7 @@
             // OffPiece1Panel
             // 
             this.OffPiece1Panel.BackColor = System.Drawing.Color.Black;
-            this.OffPiece1Panel.Location = new System.Drawing.Point(1226, 20);
+            this.OffPiece1Panel.Location = new System.Drawing.Point(1357, 20);
             this.OffPiece1Panel.Name = "OffPiece1Panel";
             this.OffPiece1Panel.Size = new System.Drawing.Size(20, 194);
             this.OffPiece1Panel.TabIndex = 6;
@@ -943,7 +934,7 @@
             // EndPiece3Panel
             // 
             this.EndPiece3Panel.BackColor = System.Drawing.Color.Black;
-            this.EndPiece3Panel.Location = new System.Drawing.Point(33, 395);
+            this.EndPiece3Panel.Location = new System.Drawing.Point(164, 395);
             this.EndPiece3Panel.Margin = new System.Windows.Forms.Padding(0);
             this.EndPiece3Panel.Name = "EndPiece3Panel";
             this.EndPiece3Panel.Size = new System.Drawing.Size(1193, 20);
@@ -1312,7 +1303,7 @@
             this.Controls.Add(this.RobotArmWorkFlowPanel);
             this.Controls.Add(this.EnterRecordingStateButton);
             this.Name = "RobotArm";
-            this.Size = new System.Drawing.Size(1877, 490);
+            this.Size = new System.Drawing.Size(1980, 490);
             ((System.ComponentModel.ISupportInitialize)(this.Servo1TrackBar)).EndInit();
             this.RobotArmWorkFlowPanel.ResumeLayout(false);
             this.RobotArmWorkFlowPanel.PerformLayout();
@@ -1439,7 +1430,7 @@
         private System.Windows.Forms.PictureBox SensorePictureBox;
         private System.Windows.Forms.Panel StartPart1Piece1Panel;
         private System.Windows.Forms.PictureBox StartPart1Piece2PictureBox;
-        private System.Windows.Forms.Label StartSensoreLabel;
+        private System.Windows.Forms.Label StartDistancSensoreLabel;
         private System.Windows.Forms.Panel Servo1Panel;
         private System.Windows.Forms.Label Servo1deg180Label;
         private System.Windows.Forms.Label Servo1deg0Label;

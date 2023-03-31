@@ -185,7 +185,7 @@
             this.SerialConsolePanel.Location = new System.Drawing.Point(1357, 12);
             this.SerialConsolePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SerialConsolePanel.Name = "SerialConsolePanel";
-            this.SerialConsolePanel.Size = new System.Drawing.Size(533, 482);
+            this.SerialConsolePanel.Size = new System.Drawing.Size(555, 482);
             this.SerialConsolePanel.TabIndex = 4;
             // 
             // RobotArmPanel
@@ -206,10 +206,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.ClientSize = new System.Drawing.Size(1924, 1033);
             this.Controls.Add(this.PackagesAmountsPanel);
             this.Controls.Add(this.RobotArmPanel);
             this.Controls.Add(this.SerialConsolePanel);
