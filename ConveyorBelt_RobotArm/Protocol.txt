@@ -1,0 +1,22 @@
+﻿distance sensores: d#1<--->#2<---> || d - distance sensore. 
+
+robot arm:|| a - arm (robot arm)
+	real time data movement: 
+		read data from arduino: a#r#1<--->#2<--->#3<--->#4<---> || r - read 
+		write data to arduino: a#w#1<--->#2<--->#3<--->#4<---> || w - write
+	arm program:
+		write fixed json data to arduino: a#j#p0#s1#1<--->#2<--->#3<--->#4<---> || j - json data. p - path(0-3). s - state(1-2) 
+
+	process: //TODO: need some work. not finished.
+		finished process:
+			a#p#f
+
+		start rotating: //TODO: need some work. not finished.
+			a#p#r
+
+on/off:
+	on:
+		o#n
+	off: 
+		o#f
+

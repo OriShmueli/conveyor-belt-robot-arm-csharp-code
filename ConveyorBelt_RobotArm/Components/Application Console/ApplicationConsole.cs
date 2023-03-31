@@ -9,11 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ConveyorBelt_RobotArm
-{ 
-    //TODO: Fix tick frequency default is 1. currently its on 30.
-    public partial class RobotArm : UserControl
+{
+    public partial class ApplicationConsole : UserControl
     {
-        public RobotArm()
+        public ApplicationConsole()
         {
             InitializeComponent();
         }
