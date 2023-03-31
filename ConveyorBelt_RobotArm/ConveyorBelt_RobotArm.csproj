@@ -89,6 +89,7 @@
     <Compile Include="SerialConsole.Designer.cs">
       <DependentUpon>SerialConsole.cs</DependentUpon>
     </Compile>
+    <Compile Include="State Machine\StateMachine.cs" />
     <EmbeddedResource Include="DistanceSensore.resx">
       <DependentUpon>DistanceSensore.cs</DependentUpon>
     </EmbeddedResource>
@@ -295,6 +296,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\degrees pattern transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Protocol.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
