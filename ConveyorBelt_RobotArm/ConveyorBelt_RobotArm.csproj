@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DistanceSensore.cs">
+    <Compile Include="Components\Distance Sensore\DistanceSensore.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DistanceSensore.Designer.cs">
+    <Compile Include="Components\Distance Sensore\DistanceSensore.Designer.cs">
       <DependentUpon>DistanceSensore.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -58,17 +58,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="PackagesAmount.cs">
+    <Compile Include="Components\PackagesAmount\PackagesAmount.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PackagesAmount.Designer.cs">
+    <Compile Include="Components\PackagesAmount\PackagesAmount.Designer.cs">
       <DependentUpon>PackagesAmount.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramStates.cs">
+    <Compile Include="Components\ProgramStates\ProgramStates.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ProgramStates.Designer.cs">
+    <Compile Include="Components\ProgramStates\ProgramStates.Designer.cs">
       <DependentUpon>ProgramStates.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,29 +77,29 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RobotArm.cs">
+    <Compile Include="Components\Robot Arm\RobotArm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="RobotArm.Designer.cs">
+    <Compile Include="Components\Robot Arm\RobotArm.Designer.cs">
       <DependentUpon>RobotArm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SerialConsole.cs">
+    <Compile Include="Components\Application Console\ApplicationConsole.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="SerialConsole.Designer.cs">
-      <DependentUpon>SerialConsole.cs</DependentUpon>
+    <Compile Include="Components\Application Console\ApplicationConsole.Designer.cs">
+      <DependentUpon>ApplicationConsole.cs</DependentUpon>
     </Compile>
     <Compile Include="State Machine\StateMachine.cs" />
-    <EmbeddedResource Include="DistanceSensore.resx">
+    <EmbeddedResource Include="Components\Distance Sensore\DistanceSensore.resx">
       <DependentUpon>DistanceSensore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PackagesAmount.resx">
+    <EmbeddedResource Include="Components\PackagesAmount\PackagesAmount.resx">
       <DependentUpon>PackagesAmount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProgramStates.resx">
+    <EmbeddedResource Include="Components\ProgramStates\ProgramStates.resx">
       <DependentUpon>ProgramStates.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -107,11 +107,11 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="RobotArm.resx">
+    <EmbeddedResource Include="Components\Robot Arm\RobotArm.resx">
       <DependentUpon>RobotArm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SerialConsole.resx">
-      <DependentUpon>SerialConsole.cs</DependentUpon>
+    <EmbeddedResource Include="Components\Application Console\ApplicationConsole.resx">
+      <DependentUpon>ApplicationConsole.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -300,5 +300,6 @@
   <ItemGroup>
     <Content Include="Protocol.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

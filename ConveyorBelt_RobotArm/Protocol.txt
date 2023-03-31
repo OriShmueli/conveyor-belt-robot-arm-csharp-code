@@ -15,7 +15,7 @@ robot arm:|| a - arm (robot arm)
 			a#p#r
 
 on/off:
-	on: 
+	on:
 		o#n
 	off: 
 		o#f

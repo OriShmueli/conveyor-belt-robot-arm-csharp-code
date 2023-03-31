@@ -22,7 +22,7 @@ namespace ConveyorBelt_RobotArm
             SerialPort.Parity = Parity.None;
             SerialPort.StopBits = StopBits.One;
             SerialPort.DataBits = 8;
-            SerialPort.BaudRate = int.Parse(AvailablePortsComboBox.Text);
+            //SerialPort.BaudRate = int.Parse(AvailablePortsComboBox.Text);
 
             string[] ports = SerialPort.GetPortNames();
             AvailablePortsComboBox.Items.Clear();
@@ -36,7 +36,7 @@ namespace ConveyorBelt_RobotArm
             RobotArmPanel.Controls.Add(new RobotArm());
             DistanceSensoresPanel.Controls.Add(new DistanceSensore());
             ProgramStatesPanel.Controls.Add(new ProgramStates());
-            SerialConsolePanel.Controls.Add(new SerialConsole());
+            SerialConsolePanel.Controls.Add(new ApplicationConsole());
             PackagesAmountsPanel.Controls.Add(new PackagesAmount());
         }
 
