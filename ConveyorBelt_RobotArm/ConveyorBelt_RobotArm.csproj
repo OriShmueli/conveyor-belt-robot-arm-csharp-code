@@ -109,6 +109,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Components\Robot Arm\RobotArm.resx">
       <DependentUpon>RobotArm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Components\Application Console\ApplicationConsole.resx">
       <DependentUpon>ApplicationConsole.cs</DependentUpon>
