@@ -213,9 +213,29 @@ namespace ConveyorBelt_RobotArm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blue_arrow_up {
+            get {
+                object obj = ResourceManager.GetObject("blue_arrow_up", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Circle {
             get {
                 object obj = ResourceManager.GetObject("Circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap conveyor_belt_gif {
+            get {
+                object obj = ResourceManager.GetObject("conveyor_belt_gif", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,6 +483,16 @@ namespace ConveyorBelt_RobotArm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap red_arrow_left {
+            get {
+                object obj = ResourceManager.GetObject("red_arrow_left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap red_x_icon {
             get {
                 object obj = ResourceManager.GetObject("red_x_icon", resourceCulture);
@@ -483,6 +513,16 @@ namespace ConveyorBelt_RobotArm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sensore_icon_black_and_magnetic {
+            get {
+                object obj = ResourceManager.GetObject("sensore_icon_black_and_magnetic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sensore_icon_black_and_yellow_package {
             get {
                 object obj = ResourceManager.GetObject("sensore_icon_black_and_yellow_package", resourceCulture);
@@ -496,6 +536,16 @@ namespace ConveyorBelt_RobotArm.Properties {
         internal static System.Drawing.Bitmap sensore_icon_magnetic_and_blue_package {
             get {
                 object obj = ResourceManager.GetObject("sensore_icon_magnetic_and_blue_package", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sensore_icon_white_and_magnetic {
+            get {
+                object obj = ResourceManager.GetObject("sensore_icon_white_and_magnetic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>ConveyorBelt_RobotArm</RootNamespace>
     <AssemblyName>ConveyorBelt_RobotArm</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,12 +47,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\Arm Settings\ArmSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\Arm Settings\ArmSettings.Designer.cs">
+      <DependentUpon>ArmSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Components\Distance Sensore\DistanceSensore.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Components\Distance Sensore\DistanceSensore.Designer.cs">
       <DependentUpon>DistanceSensore.cs</DependentUpon>
     </Compile>
+    <Compile Include="Components\Program States\GraphicStateComponent.cs" />
+    <Compile Include="Components\Program States\GraphicStateComponentEditing.cs" />
+    <Compile Include="Components\Program States\GraphicStateComponentError.cs" />
+    <Compile Include="Components\Program States\GraphicStateComponentFirstTimeOnOff.cs" />
+    <Compile Include="Components\Program States\GraphicStateComponentOnOff.cs" />
+    <Compile Include="Components\Program States\GraphicStateUtil.cs" />
+    <Compile Include="Components\Robot Arm\RobotArmBaseState.cs" />
+    <Compile Include="Components\Robot Arm\RobotArmFactory.cs" />
+    <Compile Include="Components\Robot Arm\RobotArmStateMachine.cs" />
+    <Compile Include="Components\Robot Arm\States\BlackAndYellowState.cs" />
+    <Compile Include="Components\Robot Arm\States\ConveyorBeltState.cs" />
+    <Compile Include="Components\Robot Arm\States\RobotEndState.cs" />
+    <Compile Include="Components\Robot Arm\States\MagneticAndBlueState.cs" />
+    <Compile Include="Components\Robot Arm\States\RobotRotateFromPathState.cs" />
+    <Compile Include="Components\Robot Arm\States\RobotRotateToPathState.cs" />
+    <Compile Include="Components\Robot Arm\States\RobotSensor2State.cs" />
+    <Compile Include="Components\Robot Arm\States\RobotEditingState.cs" />
+    <Compile Include="Components\Robot Arm\States\RobotPickupState.cs" />
+    <Compile Include="Components\Robot Arm\States\WhiteState.cs" />
+    <Compile Include="Data Base\Packages Properties\BlackAndYellowPackage.cs" />
+    <Compile Include="Data Base\Packages Properties\BlueAndMagneticPackage.cs" />
+    <Compile Include="Data Base\Packages Properties\Package.cs" />
+    <Compile Include="Data Base\Packages Properties\WhiteOrMagneticPackage.cs" />
+    <Compile Include="Data Base\Packages Properties\WhitePackage.cs" />
+    <Compile Include="Data Base\Requests\Request.cs" />
+    <Compile Include="Data Base\Requests\RequestEditing.cs" />
+    <Compile Include="Data Base\Requests\RequestOff.cs" />
+    <Compile Include="Data Base\Requests\RequestOn.cs" />
+    <Compile Include="Data Base\Sensors\Sensor.cs" />
+    <Compile Include="Data Base\Sensors\Sensor1.cs" />
+    <Compile Include="Data Base\Sensors\Sensor2.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Connection\ConnectedData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Connection\ConnectionBaseData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Connection\DisconnectedData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Edit\EditContinueSendingData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Edit\EditData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Edit\EditEnterStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Edit\EditExitStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Edit\EditRequestData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Error\ErrorData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\ReceiveBaseDataProtocol.cs" />
+    <Compile Include="SeralPortCommunication\DataProtocol.cs" />
+    <Compile Include="ElementsUtil.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,10 +115,10 @@
       <DependentUpon>PackagesAmount.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Components\ProgramStates\ProgramStates.cs">
+    <Compile Include="Components\Program States\ProgramStates.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\ProgramStates\ProgramStates.Designer.cs">
+    <Compile Include="Components\Program States\ProgramStates.Designer.cs">
       <DependentUpon>ProgramStates.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,7 +139,92 @@
     <Compile Include="Components\Application Console\ApplicationConsole.Designer.cs">
       <DependentUpon>ApplicationConsole.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeralPortCommunication\Receive\On Off\FirstTimeOffData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\On Off\FirstTimeOnData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\On Off\FirstTimeOnOffBaseData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\On Off\OffData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\On Off\OnData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\On Off\OnOffBaseData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\Conveyor Belt\ConveyorBeltData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\Conveyor Belt\ConveyorBeltStartData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\Conveyor Belt\ConveyorBeltStopData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\GetArmPositionsData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\RobotArmData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\RobotState\RobotEnterStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\RobotState\RobotLeaveStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\RobotState\RobotStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Black And Yellow\BlackAndYellowPathData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Black And Yellow\BlackAndYellowStage1EndData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Black And Yellow\BlackAndYellowStage1StartData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Black And Yellow\BlackAndYellowStage2EndData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Black And Yellow\BlackAndYellowStage2StartData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\End\EndStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Magnetic And Blue\MagneticAndBlueStage1EndData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Magnetic And Blue\MagneticAndBlueStage1StartData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Magnetic And Blue\MagneticAndBlueStage2EndData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Magnetic And Blue\MagneticAndBlueStage2StartData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Magnetic And Blue\MagneticAndBluePathData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Pickup\PickupStage.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Pickup\PickupStage1End.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Pickup\PickupStage1Start.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Pickup\PickupStage2End.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Pickup\PickupStage2Start.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateFrom\RotateFromBlackAndYellowData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateFrom\RotateFromData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateFrom\RotateFromEndData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateFrom\RotateFromMagneticAndBlueData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateFrom\RotateFromWhiteData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateTo\RotateToBlackAndYellowData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateTo\RotateToData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateTo\RotateToMagneticAndBlueData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\RotateTo\RotateToWhiteData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Sensor2\Sensor2Data.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Sensor2\Sensor2EnterData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\Sensor2\Sensor2LeaveData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\White\WhitePathData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\White\WhiteStage1EndData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\White\WhiteStage1StartData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\White\WhiteStage2EndData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\RobotArm\States\White\WhiteStage2StartData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\Distance Sensor\DistanceSensorsProcessorData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\Magnetic Sensor\MagneticSensorActivated.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\Magnetic Sensor\MagneticSensorDeactivated.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\MagneticSensorData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\SensorActivatedData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\SensorBaseData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\SensorDeactivatedData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\Tracking Sensor\TrackingSensorActivated.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\Tracking Sensor\TrackingSensorDeactivated.cs" />
+    <Compile Include="SeralPortCommunication\Receive\Sensors\TrackingSensorData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\States\ActivatingStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\States\DeactivatingStateData.cs" />
+    <Compile Include="SeralPortCommunication\Receive\States\StateData.cs" />
+    <Compile Include="SeralPortCommunication\Send\Connection State\SendConnectedState.cs" />
+    <Compile Include="SeralPortCommunication\Send\Connection State\SendDisconnectedState.cs" />
+    <Compile Include="SeralPortCommunication\Send\On Off\OffSendData.cs" />
+    <Compile Include="SeralPortCommunication\Send\On Off\OnSendData.cs" />
+    <Compile Include="SeralPortCommunication\Send\SendBaseDataProtocol.cs" />
+    <Compile Include="SeralPortCommunication\Send\Sensors\Magnetic\SendMagneticSensorActivated.cs" />
+    <Compile Include="SeralPortCommunication\Send\Sensors\Magnetic\SendMagneticSensorDeactivated.cs" />
+    <Compile Include="SeralPortCommunication\Send\Sensors\Tracking\SendTackingSensorActivated.cs" />
+    <Compile Include="SeralPortCommunication\Send\Sensors\Tracking\SendTackingSensorDeactivated.cs" />
+    <Compile Include="State Machine\States\ActivatingState.cs" />
+    <Compile Include="State Machine\States\ConnectedState.cs" />
+    <Compile Include="State Machine\States\DeactivatingState.cs" />
+    <Compile Include="State Machine\States\DisconnectedState.cs" />
+    <Compile Include="State Machine\States\EditingRobotArmState.cs" />
+    <Compile Include="State Machine\States\EntryState.cs" />
+    <Compile Include="State Machine\States\FirstOffState.cs" />
+    <Compile Include="State Machine\States\FirstOnState.cs" />
+    <Compile Include="State Machine\States\OffState.cs" />
+    <Compile Include="State Machine\States\OnState.cs" />
+    <Compile Include="State Machine\BaseState.cs" />
+    <Compile Include="State Machine\StateFactory.cs" />
     <Compile Include="State Machine\StateMachine.cs" />
+    <Compile Include="State Machine\States\RobotState.cs" />
+    <EmbeddedResource Include="Components\Arm Settings\ArmSettings.resx">
+      <DependentUpon>ArmSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Components\Distance Sensore\DistanceSensore.resx">
       <DependentUpon>DistanceSensore.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,7 +234,7 @@
     <EmbeddedResource Include="Components\PackagesAmount\PackagesAmount.resx">
       <DependentUpon>PackagesAmount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\ProgramStates\ProgramStates.resx">
+    <EmbeddedResource Include="Components\Program States\ProgramStates.resx">
       <DependentUpon>ProgramStates.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -299,8 +434,15 @@
     <None Include="Resources\degrees pattern transparent.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Protocol.txt" />
+    <None Include="Resources\sensore icon white and magnetic.png" />
+    <None Include="Resources\red arrow left.png" />
+    <None Include="Resources\blue arrow up.png" />
+    <Content Include="SeralPortCommunication\Protocol.txt" />
+    <None Include="Resources\conveyor belt gif.gif" />
+    <None Include="Resources\sensore icon black and magnetic.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SeralPortCommunication\Send\Robot Arm\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

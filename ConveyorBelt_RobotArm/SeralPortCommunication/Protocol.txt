@@ -1,0 +1,170 @@
+﻿Receive: (the computer receiving the data from the arduino)
+{
+	distance sensores: d#1<---->#2<----> || d - distance sensore. 
+
+	editing: e - editing 
+		send more data: e#m || m - more
+		recording:
+			states id: 
+				puck up: u
+				white: w
+				black and yellow: y
+				magnetic and blue: m
+		get positions from current state/stage: e#1<--->#2<--->#3<--->#4<--->
+
+	robot arm:|| a - arm (robot arm)
+		real time data movement: 
+			read data from arduino: a#1<--->#2<--->#3<--->#4<---> || r - read //a#r#1<---->#2<---->#3<---->#4<---->
+			//delete this ... write data to arduino: a#w#1<---->#2<---->#3<---->#4<----> || w - write
+		send more data: a#m || m - more data
+		conveyor belt start: a#c#t
+		conveyor belt stop: a#c#s
+		pickup State: a#s#u - enter pickup state || u - pickup
+			Stage1: a#s#u#a
+				Start: a#s#u#t#a 
+				End: a#s#u#n#a
+			Stage2:	a#s#u#b
+				Start: a#s#u#t#b
+				End: a#s#u#n#b
+		Sensor2: //a#s#s
+			enter: a#s#e
+			leave: a#s#l
+		rotate to: a#r#t
+			white: a#r#t#w
+			blue and magnetic: a#r#t#m
+			black and yellow: a#r#t#y
+			activate led: a#r#t#o
+			deactivate led: a#r#t#f
+		rotate to: a#r#f
+			end: a#r#f#n
+			white: a#r#f#w
+			magnetic and blue: a#r#f#m
+			blakc and yellow: a#r#f#y
+		white package state: a#s#u#p#w || p - package || w - white
+			Stage1: a#s#u#a#p#w
+				Start: a#s#u#t#a#p#w
+				End: a#s#u#n#a#p#w
+			Stage2:	a#s#u#b#p#w
+				Start: a#s#u#t#b#p#w
+				End: a#s#u#n#b#p#w
+		blue and magnetic package state: a#s#u#p#m || p - package || m - magnetic and blue 
+			Stage1: a#s#u#a#p#m
+				Start: a#s#u#t#a#p#m
+				End: a#s#u#n#a#p#m
+			Stage2:	a#s#u#b#p#m
+				Start: a#s#u#t#b#p#m
+				End: a#s#u#n#b#p#m
+		black and yellow package state: a#s#u#p#y || p - package || y - black and yellow
+			Stage1: a#s#u#a#p#y
+				Start: a#s#u#t#a#p#y
+				End: a#s#u#n#a#p#y
+			Stage2:	a#s#u#b#p#y
+				Start: a#s#u#t#b#p#y
+				End: a#s#u#n#b#p#y
+		End: a#s#e#n
+
+
+	on/off: o - on/off mode 
+		first time on: o#n#f || n - on || f - first time
+		first time off: o#f#f || f - off || f - first time
+		on: o#n || n - on
+		off:  o#f || f - off	
+
+	sensors: n - sensor
+		sensor activated: n#a || a - activated
+			tack sensor: n#a#t || t - track sensor activated
+			magnetic: n#a#m || m - magnetic sensor activated 
+		sensor deactivated: n#d || d - deactivated
+			tack sensor: n#d#t || t - track sensor activated
+			magnetic: n#d#m || m - magnetic sensor activated 
+
+	connection state: r - connection state
+		connected: r#c || c - connected
+		disconnected: r#d || d - disconnected
+
+	error: e - error
+
+	states: s - state
+		editing state: s#e || e - editing
+			enter edit state: s#e
+			exit edit state: s#e#t
+		enter conveyor belt state: s#c#c
+		conveyor belt start moveing: s#c#s || c - conveyor belt || s - start move 
+		conveyor belt stop moveing: s#c#p || c - conveyor belt || p - pause
+		activating: s#a || a - activating
+		deactivating: s#d || d - deactivating
+		robot arm states: s#a || a - robot arm
+			move arm down: s#a#d || d - down (move arm down to pick the item)
+			pick item from conveyor belt: s#a#u || u - up (move arm up after picking the item from the conveyor belt)
+			rotate: s#a#r || r - rotate
+				plus: s#a#r#p || p - rotate towards the "plus direction" 
+				minus: s#a#r#m || m - rotate towards the "minus direction"
+			put item in its respective place: s#a#p || p - put item in its respective place 
+			return back (move arm back to the position befor putting item in its place):  s#a#b || b - return back
+		connected state: s#c || c - connected; //also in cinveyor belt
+		disconnected state: s#n || n - disconnected;
+}
+
+Send: (the computer send the data to the arduino)
+{
+	error send message again: v
+
+	robot arm: a - arm (robot arm)
+		confirmed data sending back request for more: a#m || m - more (more data)
+		request start positions: a#r#p
+		real time data movement: 
+		write real time data to arduino: a#w#p#(path id)#s#(state number 1-2)#i#(number)<--->|| w - write || (number) - the servo id from 1 to 4. //a e#w#1<---->#2<---->#3<---->#4<----> (31). 2 e#w#1<--->#2<--->#3<--->#4<---> //e#w#p#(path id)#s#(state number 1-2)#i#(number)<--->
+		write fixed json data to arduino: a#j#p0#s1#1<---->#2<---->#3<---->#4<----> || j - json data. p - path(0-3). s - state(1-2) 
+		conveyor belt start: a#c#t
+		conveyor belt stop: a#c#s
+		pickup State: a#s#u - enter pickup state || u - pickup
+			Stage1: a#s#u#a
+				Start: a#s#u#t#a 
+				End: a#s#u#n#a
+			Stage2:	a#s#u#b
+				Start: a#s#u#t#b
+				End: a#s#u#n#b
+
+	states: s - state
+		editing state: s#e || e - editing
+		enter conveyor belt state: s#c#c
+		conveyor belt start moveing: s#c#s || c - conveyor belt || s - start move 
+		conveyor belt stop moveing: s#c#p || c - conveyor belt || p - pause
+		activating: s#a || a - activating
+		deactivating: s#d || d - deactivating
+		robot arm states: s#a || a - robot arm
+			move arm down: s#a#d || d - down (move arm down to pick the item)
+			pick item from conveyor belt: s#a#u || u - up (move arm up after picking the item from the conveyor belt)
+			rotate: s#a#r || r - rotate
+				plus: s#a#r#p || p - rotate towards the "plus direction" 
+				minus: s#a#r#m || m - rotate towards the "minus direction"
+			put item in its respective place: s#a#p || p - put item in its respective place 
+			return back (move arm back to the position befor putting item in its place):  s#a#b || b - return back
+		connected state: s#c || c - connected; //also in cinveyor belt
+		disconnected state: s#n || n - disconnected;
+		
+	distance sernsore confirmed data: d#m || m - more data
+
+	sensores: n - sensore || r - successfully receiving sensore data
+		tack sensore: n#t#r || t - track sensore 
+		magnetic: n#m#r || m - magnetic sensore  
+
+	on off: o - on off || r - received || n - on || f - off
+		recived on: o#n#r
+		recived off: o#f#r
+		first time: f - first time
+		received first time on: o#n#f#r
+		received first time off: o#f#f#r
+
+	editing: e - editing 
+		testing: e#t#(number)<--->
+		recording:
+			states id: 
+				puck up: u
+				white: w
+				black and yellow: y
+				magnetic and blue: m
+		get state/stage positions: e#a#p#(path id)#s#(state number 1-2)
+			
+
+}

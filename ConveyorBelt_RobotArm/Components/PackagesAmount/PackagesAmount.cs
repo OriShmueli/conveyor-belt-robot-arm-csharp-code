@@ -19,7 +19,7 @@ namespace ConveyorBelt_RobotArm
             InitializeComponent();
             UpdatePackagesAmounts(NumberOfBlackAndYellowBoxLabelText, 0);
             UpdatePackagesAmounts(NumberOfMagneticAndBlueBoxLabelText, 0);
-            UpdatePackagesAmounts(NumberOfWhiteBoxLabelText, 0);
+            UpdatePackagesAmounts(NumberOfWhiteBoxLabelText, 0);           
         }
 
         public void UpdatePackagesAmounts(Label label, int number)
@@ -37,9 +37,9 @@ namespace ConveyorBelt_RobotArm
             BoxesAmountStatusPictureBox.Image = icon;
         }
 
-        public async Task CheckForValidPackagesAmounts()
-        {
+        //public async Task CheckForValidPackagesAmounts()
+        //{
             
-        } 
+        //} 
     }
 }

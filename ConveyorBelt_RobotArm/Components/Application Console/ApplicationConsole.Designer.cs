@@ -29,55 +29,68 @@
         private void InitializeComponent()
         {
             this.ApplicationConsoleTitleLabel = new System.Windows.Forms.Label();
-            this.ApplicationConosleTextBox = new System.Windows.Forms.TextBox();
             this.ApplicationConsoleVScrollBar = new System.Windows.Forms.VScrollBar();
+            this.ApplicationConsoleTitlePanel = new System.Windows.Forms.Panel();
+            this.ApplicationConosleTextBox = new System.Windows.Forms.RichTextBox();
+            this.ApplicationConsoleTitlePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // ApplicationConsoleTitleLabel
             // 
-            this.ApplicationConsoleTitleLabel.AutoSize = true;
-            this.ApplicationConsoleTitleLabel.Location = new System.Drawing.Point(176, 9);
-            this.ApplicationConsoleTitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ApplicationConsoleTitleLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ApplicationConsoleTitleLabel.Location = new System.Drawing.Point(0, 0);
             this.ApplicationConsoleTitleLabel.Name = "ApplicationConsoleTitleLabel";
-            this.ApplicationConsoleTitleLabel.Size = new System.Drawing.Size(45, 13);
+            this.ApplicationConsoleTitleLabel.Size = new System.Drawing.Size(369, 31);
             this.ApplicationConsoleTitleLabel.TabIndex = 0;
             this.ApplicationConsoleTitleLabel.Text = "Console";
-            // 
-            // ApplicationConosleTextBox
-            // 
-            this.ApplicationConosleTextBox.Location = new System.Drawing.Point(2, 24);
-            this.ApplicationConosleTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.ApplicationConosleTextBox.Multiline = true;
-            this.ApplicationConosleTextBox.Name = "ApplicationConosleTextBox";
-            this.ApplicationConosleTextBox.Size = new System.Drawing.Size(392, 366);
-            this.ApplicationConosleTextBox.TabIndex = 1;
+            this.ApplicationConsoleTitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ApplicationConsoleVScrollBar
             // 
-            this.ApplicationConsoleVScrollBar.Location = new System.Drawing.Point(395, 24);
+            this.ApplicationConsoleVScrollBar.Location = new System.Drawing.Point(348, 31);
             this.ApplicationConsoleVScrollBar.Name = "ApplicationConsoleVScrollBar";
-            this.ApplicationConsoleVScrollBar.Size = new System.Drawing.Size(21, 365);
+            this.ApplicationConsoleVScrollBar.Size = new System.Drawing.Size(21, 445);
             this.ApplicationConsoleVScrollBar.TabIndex = 2;
             // 
-            // SerialConsole
+            // ApplicationConsoleTitlePanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.ApplicationConsoleTitlePanel.Controls.Add(this.ApplicationConsoleTitleLabel);
+            this.ApplicationConsoleTitlePanel.Location = new System.Drawing.Point(0, 0);
+            this.ApplicationConsoleTitlePanel.Name = "ApplicationConsoleTitlePanel";
+            this.ApplicationConsoleTitlePanel.Size = new System.Drawing.Size(369, 31);
+            this.ApplicationConsoleTitlePanel.TabIndex = 3;
+            // 
+            // ApplicationConosleTextBox
+            // 
+            this.ApplicationConosleTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ApplicationConosleTextBox.Location = new System.Drawing.Point(0, 31);
+            this.ApplicationConosleTextBox.Name = "ApplicationConosleTextBox";
+            this.ApplicationConosleTextBox.ReadOnly = true;
+            this.ApplicationConosleTextBox.Size = new System.Drawing.Size(345, 447);
+            this.ApplicationConosleTextBox.TabIndex = 4;
+            this.ApplicationConosleTextBox.Text = "";
+            // 
+            // ApplicationConsole
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.ApplicationConsoleVScrollBar);
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.ApplicationConosleTextBox);
-            this.Controls.Add(this.ApplicationConsoleTitleLabel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "SerialConsole";
-            this.Size = new System.Drawing.Size(411, 392);
+            this.Controls.Add(this.ApplicationConsoleTitlePanel);
+            this.Controls.Add(this.ApplicationConsoleVScrollBar);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "ApplicationConsole";
+            this.Size = new System.Drawing.Size(369, 478);
+            this.ApplicationConsoleTitlePanel.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Label ApplicationConsoleTitleLabel;
-        private System.Windows.Forms.TextBox ApplicationConosleTextBox;
         private System.Windows.Forms.VScrollBar ApplicationConsoleVScrollBar;
+        private System.Windows.Forms.Panel ApplicationConsoleTitlePanel;
+        private System.Windows.Forms.RichTextBox ApplicationConosleTextBox;
     }
 }

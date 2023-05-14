@@ -154,8 +154,14 @@
   <data name="blue_arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue arrow right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blue_arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue arrow up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conveyor_belt_gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\conveyor belt gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="degrees_pattern_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\degrees pattern transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,17 +235,26 @@
   <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="red_arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red arrow left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="red_x_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red-x-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sensore_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sensore icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sensore_icon_black_and_magnetic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sensore icon black and magnetic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sensore_icon_black_and_yellow_package" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sensore icon black and yellow package.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sensore_icon_magnetic_and_blue_package" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sensore icon magnetic and blue package.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sensore_icon_white_and_magnetic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sensore icon white and magnetic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sensore_icon_white_package" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sensore icon white package.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -118,30 +118,130 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ArduinoStateOnOffPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ComputerStateArmUIWorkFlowPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ArduinoStateFirstTimeOnOffPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ArduinoStateArmMovementPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ArduinoStateConveyerBeltPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ArduinoStateSensoresPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ComputerStateUpdatePackagesAmountsPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ComputerStateActivatingDeactivatingPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ComputerStateSendingErrorResponsePanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ComputerStateWritingDataToArduinoPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
+        EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
+        wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
+        TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="ComputerColoredWritingDataToArduinoPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
         TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ComputerColoredUpdatingUIPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ComputerColoredSendingErrorResponsePanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
         TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ComputerColoredVerifyingPackagesAmountsPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ComputerColoredActivatingDeactivatingPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
@@ -151,7 +251,7 @@
   <data name="ComputerColoredUpdatePackagesAmountsPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
@@ -161,7 +261,7 @@
   <data name="ArduinoColoredSensoresPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
@@ -171,7 +271,7 @@
   <data name="ArduinoColoredConveyerBeltPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
@@ -181,27 +281,27 @@
   <data name="ArduinoColoredArmMovementPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
         TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ArduinoColoredOffPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ArduinoColoredFirstTimeOnOffPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
         TCGYQjCFYArBFIIpBFMIZecDLDS6U85LyPMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ArduinoColoredOnPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ArduinoColoredOnOffPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
@@ -211,7 +311,7 @@
   <data name="ComputerColoredArmUIWorkFlowPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
+        EAAACxABrSO9dQAAAPRJREFUeF7t0TERACAMADEEVgvc1f+AjQw/REHOfTtxFIIpBFMIphBMIZhCMIVg
         CsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwim
         EEwhmEIwhWAKwRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAK
         wRSCKQRTCKYQTCGYQjCFYArBFIIpBFMIphBMIZhCMIVgCsEUgikEUwimEEwhmEIwhWAKwRSCKQRTCKYQ
